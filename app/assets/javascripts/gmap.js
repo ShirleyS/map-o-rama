@@ -59,7 +59,7 @@ function addToMap(map,pos){
 	var lat = pos.k
 	var lng = pos.D
 	$.ajax({
-    url: "https://api.instagram.com/v1/media/search?lat="+lat+"&lng="+lng+"&distance=700&client_id=3362b329e39749228f959b78cc3e0d40",
+    url: "https://api.instagram.com/v1/media/search?lat="+lat+"&lng="+lng+"&distance=10&client_id=3362b329e39749228f959b78cc3e0d40",
     dataType: 'jsonp',
     success: function(dataWeGotViaJsonp){
       var len = dataWeGotViaJsonp.data.length;
@@ -80,19 +80,29 @@ function addToMap(map,pos){
 						scaledSize: new google.maps.Size(64, 64)
 					}
 		    })
+		    console.log(i)
+				if (dataWeGotViaJsonp.data[i].caption !=null) {
+			  	if(dataWeGotViaJsonp.data[i].caption.text != null) { 
+				  	var title = dataWeGotViaJsonp.data[i].caption.text; 
+					} 
+				}
+				else { 
+				  var title = "";
+				}
+				
 		    var content = '<div id="popup_content">'+
-  											'<div>'+'<h3>'+dataWeGotViaJsonp.data[i].caption.text +
+  											'<div>'+'<h3>'+ title +
   											'</h3>'+'</div>'+
   											'<img src ='+ dataWeGotViaJsonp.data[i].images.low_resolution.url + '>'+
   											'<div>'+
-  											'<h4>'+dataWeGotViaJsonp.data[i].caption.from.username + '</h4>'+ '</div>'+
+  											'<h4>'+dataWeGotViaJsonp.data[i].user.username + '</h4>'+ '</div>'+
   											'</div>';  
 		
 				addInfoWindow(map,marker[i],content);	
     	}
 		}
 	});
-}
+};
 
 function addInfoWindow(map,marker,content) {
     var infoWindow = new google.maps.InfoWindow({
@@ -100,6 +110,7 @@ function addInfoWindow(map,marker,content) {
     });
 
     google.maps.event.addListener(marker, 'click', function () {
+    	  console.log(marker)
         infoWindow.open(map, marker);
     });
 }
