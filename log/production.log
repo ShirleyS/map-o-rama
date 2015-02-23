@@ -1,0 +1,2879 @@
+I, [2015-02-09T13:20:31.897596 #5814]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-09 13:20:31 -0800
+I, [2015-02-09T13:20:32.004667 #5814]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-09T13:20:36.467124 #5814]  INFO -- :   Rendered welcome/index.html within layouts/application (172.3ms)
+I, [2015-02-09T13:20:36.471260 #5814]  INFO -- : Completed 200 OK in 4466ms (Views: 275.2ms | ActiveRecord: 0.0ms)
+I, [2015-02-09T13:20:39.269569 #5814]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-09 13:20:39 -0800
+I, [2015-02-09T13:20:39.271078 #5814]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-09T13:20:45.108171 #5814]  INFO -- :   Rendered welcome/index.html within layouts/application (4.6ms)
+I, [2015-02-09T13:20:45.185435 #5814]  INFO -- : Completed 200 OK in 5914ms (Views: 82.6ms | ActiveRecord: 0.0ms)
+I, [2015-02-09T13:20:45.242605 #5814]  INFO -- : Started GET "/stylesheets/application.css" for 127.0.0.1 at 2015-02-09 13:20:45 -0800
+F, [2015-02-09T13:20:45.244058 #5814] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/application.css"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-02-09T13:20:45.285870 #5814]  INFO -- : Started GET "/javascripts/application.js" for 127.0.0.1 at 2015-02-09 13:20:45 -0800
+F, [2015-02-09T13:20:45.288079 #5814] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/javascripts/application.js"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-02-09T13:20:47.503182 #5814]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-09 13:20:47 -0800
+I, [2015-02-09T13:20:47.505171 #5814]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-09T13:20:49.400100 #5814]  INFO -- :   Rendered welcome/index.html within layouts/application (6.2ms)
+I, [2015-02-09T13:20:49.401065 #5814]  INFO -- : Completed 200 OK in 1896ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+I, [2015-02-09T13:20:49.504353 #5814]  INFO -- : Started GET "/stylesheets/application.css" for 127.0.0.1 at 2015-02-09 13:20:49 -0800
+F, [2015-02-09T13:20:49.505663 #5814] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/application.css"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-02-09T13:20:49.509394 #5814]  INFO -- : Started GET "/javascripts/application.js" for 127.0.0.1 at 2015-02-09 13:20:49 -0800
+F, [2015-02-09T13:20:49.510626 #5814] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/javascripts/application.js"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-02-09T13:25:34.004875 #5814]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-09 13:25:34 -0800
+I, [2015-02-09T13:25:34.044860 #5814]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-09T13:25:35.626447 #5814]  INFO -- :   Rendered welcome/index.html within layouts/application (6.5ms)
+I, [2015-02-09T13:25:35.630394 #5814]  INFO -- : Completed 200 OK in 1585ms (Views: 12.8ms | ActiveRecord: 0.0ms)
+I, [2015-02-09T13:25:35.827985 #5814]  INFO -- : Started GET "/stylesheets/application.css" for 127.0.0.1 at 2015-02-09 13:25:35 -0800
+F, [2015-02-09T13:25:35.834670 #5814] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/application.css"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-02-09T13:25:35.861935 #5814]  INFO -- : Started GET "/javascripts/application.js" for 127.0.0.1 at 2015-02-09 13:25:35 -0800
+F, [2015-02-09T13:25:35.863816 #5814] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/javascripts/application.js"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-02-09T13:26:09.106677 #5814]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-09 13:26:09 -0800
+I, [2015-02-09T13:26:09.171432 #5814]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-09T13:26:13.966769 #5814]  INFO -- :   Rendered welcome/index.html within layouts/application (6.6ms)
+I, [2015-02-09T13:26:13.967980 #5814]  INFO -- : Completed 200 OK in 4796ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+I, [2015-02-09T13:26:14.245622 #5814]  INFO -- : Started GET "/javascripts/application.js" for 127.0.0.1 at 2015-02-09 13:26:14 -0800
+F, [2015-02-09T13:26:14.247063 #5814] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/javascripts/application.js"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-02-09T13:26:14.266930 #5814]  INFO -- : Started GET "/stylesheets/application.css" for 127.0.0.1 at 2015-02-09 13:26:14 -0800
+F, [2015-02-09T13:26:14.268456 #5814] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/application.css"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-02-09T13:49:28.974048 #6027]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-09 13:49:28 -0800
+I, [2015-02-09T13:49:29.151021 #6027]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-09T13:49:30.403615 #6027]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (4.8ms)
+I, [2015-02-09T13:49:30.405650 #6027]  INFO -- : Completed 200 OK in 1254ms (Views: 35.2ms | ActiveRecord: 0.0ms)
+I, [2015-02-09T13:49:31.088031 #6027]  INFO -- : Started GET "/assets/application-c06dd6a542ea15147e6794e03643f87c.css" for 127.0.0.1 at 2015-02-09 13:49:31 -0800
+F, [2015-02-09T13:49:31.149487 #6027] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application-c06dd6a542ea15147e6794e03643f87c.css"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-02-09T13:49:31.256255 #6027]  INFO -- : Started GET "/assets/application-f7c8605c022e8696038b4f9d9ae2cdce.js" for 127.0.0.1 at 2015-02-09 13:49:31 -0800
+F, [2015-02-09T13:49:31.258409 #6027] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application-f7c8605c022e8696038b4f9d9ae2cdce.js"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-02-09T13:50:09.386592 #6027]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-09 13:50:09 -0800
+I, [2015-02-09T13:50:09.459116 #6027]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-09T13:50:20.657615 #6027]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (4.2ms)
+I, [2015-02-09T13:50:20.658632 #6027]  INFO -- : Completed 200 OK in 11199ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+I, [2015-02-09T13:50:20.832123 #6027]  INFO -- : Started GET "/assets/application-c06dd6a542ea15147e6794e03643f87c.css" for 127.0.0.1 at 2015-02-09 13:50:20 -0800
+F, [2015-02-09T13:50:20.834114 #6027] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application-c06dd6a542ea15147e6794e03643f87c.css"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-02-09T13:50:20.862023 #6027]  INFO -- : Started GET "/assets/application-f7c8605c022e8696038b4f9d9ae2cdce.js" for 127.0.0.1 at 2015-02-09 13:50:20 -0800
+F, [2015-02-09T13:50:20.936993 #6027] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application-f7c8605c022e8696038b4f9d9ae2cdce.js"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-02-09T14:22:52.348254 #6201]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-09 14:22:52 -0800
+I, [2015-02-09T14:22:52.506498 #6201]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-09T14:22:53.918122 #6201]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (1.6ms)
+I, [2015-02-09T14:22:53.921063 #6201]  INFO -- : Completed 200 OK in 1414ms (Views: 58.8ms | ActiveRecord: 0.0ms)
+I, [2015-02-09T14:22:54.143388 #6201]  INFO -- : Started GET "/assets/application-c06dd6a542ea15147e6794e03643f87c.css" for 127.0.0.1 at 2015-02-09 14:22:54 -0800
+F, [2015-02-09T14:22:54.145279 #6201] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application-c06dd6a542ea15147e6794e03643f87c.css"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-02-09T14:22:54.287476 #6201]  INFO -- : Started GET "/assets/application-f7c8605c022e8696038b4f9d9ae2cdce.js" for 127.0.0.1 at 2015-02-09 14:22:54 -0800
+F, [2015-02-09T14:22:54.288802 #6201] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application-f7c8605c022e8696038b4f9d9ae2cdce.js"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-02-09T14:23:09.143736 #6201]  INFO -- : Started GET "/assets/application-c06dd6a542ea15147e6794e03643f87c.css" for 127.0.0.1 at 2015-02-09 14:23:09 -0800
+F, [2015-02-09T14:23:09.165763 #6201] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application-c06dd6a542ea15147e6794e03643f87c.css"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-02-09T14:23:40.587566 #6201]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-09 14:23:40 -0800
+I, [2015-02-09T14:23:40.613840 #6201]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-09T14:23:41.672919 #6201]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (0.5ms)
+I, [2015-02-09T14:23:41.676819 #6201]  INFO -- : Completed 200 OK in 1062ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+I, [2015-02-09T14:23:41.917997 #6201]  INFO -- : Started GET "/assets/application-c06dd6a542ea15147e6794e03643f87c.css" for 127.0.0.1 at 2015-02-09 14:23:41 -0800
+F, [2015-02-09T14:23:41.921538 #6201] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application-c06dd6a542ea15147e6794e03643f87c.css"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-02-09T14:23:41.961209 #6201]  INFO -- : Started GET "/assets/application-f7c8605c022e8696038b4f9d9ae2cdce.js" for 127.0.0.1 at 2015-02-09 14:23:41 -0800
+F, [2015-02-09T14:23:41.963205 #6201] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application-f7c8605c022e8696038b4f9d9ae2cdce.js"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-02-09T14:24:00.477522 #6201]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-09 14:24:00 -0800
+I, [2015-02-09T14:24:00.534183 #6201]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-09T14:24:01.229199 #6201]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (0.1ms)
+I, [2015-02-09T14:24:01.230424 #6201]  INFO -- : Completed 200 OK in 696ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+I, [2015-02-09T14:24:01.321484 #6201]  INFO -- : Started GET "/assets/application-c06dd6a542ea15147e6794e03643f87c.css" for 127.0.0.1 at 2015-02-09 14:24:01 -0800
+F, [2015-02-09T14:24:01.322920 #6201] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application-c06dd6a542ea15147e6794e03643f87c.css"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-02-09T14:24:01.358686 #6201]  INFO -- : Started GET "/assets/application-f7c8605c022e8696038b4f9d9ae2cdce.js" for 127.0.0.1 at 2015-02-09 14:24:01 -0800
+F, [2015-02-09T14:24:01.360646 #6201] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application-f7c8605c022e8696038b4f9d9ae2cdce.js"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-02-09T14:24:09.852344 #6201]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-09 14:24:09 -0800
+I, [2015-02-09T14:24:09.866875 #6201]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-09T14:24:10.562209 #6201]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (0.1ms)
+I, [2015-02-09T14:24:10.563369 #6201]  INFO -- : Completed 200 OK in 696ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+I, [2015-02-09T14:24:10.654700 #6201]  INFO -- : Started GET "/assets/application-f7c8605c022e8696038b4f9d9ae2cdce.js" for 127.0.0.1 at 2015-02-09 14:24:10 -0800
+F, [2015-02-09T14:24:10.656803 #6201] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application-f7c8605c022e8696038b4f9d9ae2cdce.js"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-02-09T14:24:10.702682 #6201]  INFO -- : Started GET "/assets/application-c06dd6a542ea15147e6794e03643f87c.css" for 127.0.0.1 at 2015-02-09 14:24:10 -0800
+F, [2015-02-09T14:24:10.704846 #6201] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application-c06dd6a542ea15147e6794e03643f87c.css"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-02-09T14:24:26.068725 #6201]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-09 14:24:26 -0800
+I, [2015-02-09T14:24:26.133118 #6201]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-09T14:24:27.354204 #6201]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (0.1ms)
+I, [2015-02-09T14:24:27.355124 #6201]  INFO -- : Completed 200 OK in 1222ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+I, [2015-02-09T14:24:27.417736 #6201]  INFO -- : Started GET "/assets/application-f7c8605c022e8696038b4f9d9ae2cdce.js" for 127.0.0.1 at 2015-02-09 14:24:27 -0800
+F, [2015-02-09T14:24:27.420081 #6201] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application-f7c8605c022e8696038b4f9d9ae2cdce.js"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-02-09T14:24:27.464107 #6201]  INFO -- : Started GET "/assets/application-c06dd6a542ea15147e6794e03643f87c.css" for 127.0.0.1 at 2015-02-09 14:24:27 -0800
+F, [2015-02-09T14:24:27.465874 #6201] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application-c06dd6a542ea15147e6794e03643f87c.css"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-02-09T14:25:07.146680 #6229]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-09 14:25:07 -0800
+I, [2015-02-09T14:25:07.177691 #6229]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-09T14:25:08.052892 #6229]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (0.9ms)
+I, [2015-02-09T14:25:08.054991 #6229]  INFO -- : Completed 200 OK in 877ms (Views: 51.0ms | ActiveRecord: 0.0ms)
+I, [2015-02-09T14:25:08.121342 #6229]  INFO -- : Started GET "/assets/application-f7c8605c022e8696038b4f9d9ae2cdce.js" for 127.0.0.1 at 2015-02-09 14:25:08 -0800
+F, [2015-02-09T14:25:08.125534 #6229] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application-f7c8605c022e8696038b4f9d9ae2cdce.js"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-02-09T14:25:08.217400 #6229]  INFO -- : Started GET "/assets/application-c06dd6a542ea15147e6794e03643f87c.css" for 127.0.0.1 at 2015-02-09 14:25:08 -0800
+F, [2015-02-09T14:25:08.219992 #6229] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application-c06dd6a542ea15147e6794e03643f87c.css"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-02-09T14:26:55.061126 #6244]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-09 14:26:55 -0800
+I, [2015-02-09T14:26:55.191419 #6244]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-09T14:26:55.857279 #6244]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (1.3ms)
+I, [2015-02-09T14:26:55.859911 #6244]  INFO -- : Completed 200 OK in 668ms (Views: 36.2ms | ActiveRecord: 0.0ms)
+I, [2015-02-09T14:26:55.937584 #6244]  INFO -- : Started GET "/assets/application-f7c8605c022e8696038b4f9d9ae2cdce.js" for 127.0.0.1 at 2015-02-09 14:26:55 -0800
+F, [2015-02-09T14:26:55.940441 #6244] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application-f7c8605c022e8696038b4f9d9ae2cdce.js"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-02-09T14:26:55.956662 #6244]  INFO -- : Started GET "/assets/application-c06dd6a542ea15147e6794e03643f87c.css" for 127.0.0.1 at 2015-02-09 14:26:55 -0800
+F, [2015-02-09T14:26:55.959185 #6244] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application-c06dd6a542ea15147e6794e03643f87c.css"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-02-09T16:02:14.934643 #6655]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-09 16:02:14 -0800
+I, [2015-02-09T16:02:15.081738 #6655]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-09T16:02:21.685021 #6655]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (1.1ms)
+I, [2015-02-09T16:02:21.687832 #6655]  INFO -- : Completed 200 OK in 6606ms (Views: 33.6ms | ActiveRecord: 0.0ms)
+I, [2015-02-09T16:02:21.714352 #6655]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-09 16:02:21 -0800
+I, [2015-02-09T16:02:21.716119 #6655]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-09T16:02:49.701003 #6655]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (0.2ms)
+I, [2015-02-09T16:02:49.777910 #6655]  INFO -- : Completed 200 OK in 28062ms (Views: 77.9ms | ActiveRecord: 0.0ms)
+I, [2015-02-09T16:02:49.779150 #6655]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-09 16:02:49 -0800
+I, [2015-02-09T16:02:49.780138 #6655]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-09T16:02:51.273908 #6655]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (0.1ms)
+I, [2015-02-09T16:02:51.274856 #6655]  INFO -- : Completed 200 OK in 1495ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+I, [2015-02-09T16:02:52.069459 #6655]  INFO -- : Started GET "/assets/application-c06dd6a542ea15147e6794e03643f87c.css" for 127.0.0.1 at 2015-02-09 16:02:52 -0800
+F, [2015-02-09T16:02:52.071094 #6655] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application-c06dd6a542ea15147e6794e03643f87c.css"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-02-09T16:02:52.496834 #6655]  INFO -- : Started GET "/assets/application-f7c8605c022e8696038b4f9d9ae2cdce.js" for 127.0.0.1 at 2015-02-09 16:02:52 -0800
+F, [2015-02-09T16:02:52.498920 #6655] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application-f7c8605c022e8696038b4f9d9ae2cdce.js"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-02-10T10:50:31.903244 #7611]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 10:50:31 -0800
+I, [2015-02-10T10:50:33.199657 #7611]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T10:50:35.335564 #7611]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (20.2ms)
+I, [2015-02-10T10:50:35.344823 #7611]  INFO -- : Completed 200 OK in 2145ms (Views: 196.6ms | ActiveRecord: 0.0ms)
+I, [2015-02-10T10:50:39.249684 #7611]  INFO -- : Started GET "/assets/application-c06dd6a542ea15147e6794e03643f87c.css" for 127.0.0.1 at 2015-02-10 10:50:39 -0800
+F, [2015-02-10T10:50:39.306827 #7611] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application-c06dd6a542ea15147e6794e03643f87c.css"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-02-10T10:50:39.401053 #7611]  INFO -- : Started GET "/assets/application-cb3977d30c386fa0ed0b81a73554a52d.js" for 127.0.0.1 at 2015-02-10 10:50:39 -0800
+F, [2015-02-10T10:50:39.403966 #7611] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application-cb3977d30c386fa0ed0b81a73554a52d.js"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-02-10T10:50:43.072146 #7611]  INFO -- : Started GET "/favicon.ico" for 127.0.0.1 at 2015-02-10 10:50:43 -0800
+F, [2015-02-10T10:50:43.074226 #7611] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-02-10T10:50:54.934058 #7611]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 10:50:54 -0800
+I, [2015-02-10T10:50:54.943095 #7611]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T10:50:57.880767 #7611]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (7.0ms)
+I, [2015-02-10T10:50:57.881761 #7611]  INFO -- : Completed 200 OK in 2938ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+I, [2015-02-10T10:50:58.011360 #7611]  INFO -- : Started GET "/assets/application-cb3977d30c386fa0ed0b81a73554a52d.js" for 127.0.0.1 at 2015-02-10 10:50:58 -0800
+F, [2015-02-10T10:50:58.013569 #7611] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application-cb3977d30c386fa0ed0b81a73554a52d.js"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-02-10T10:50:58.065609 #7611]  INFO -- : Started GET "/assets/application-c06dd6a542ea15147e6794e03643f87c.css" for 127.0.0.1 at 2015-02-10 10:50:58 -0800
+F, [2015-02-10T10:50:58.068330 #7611] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application-c06dd6a542ea15147e6794e03643f87c.css"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-02-10T10:51:01.353418 #7611]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 10:51:01 -0800
+I, [2015-02-10T10:51:01.392105 #7611]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T10:51:04.342765 #7611]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (3.7ms)
+I, [2015-02-10T10:51:04.343837 #7611]  INFO -- : Completed 200 OK in 2952ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+I, [2015-02-10T10:51:04.418498 #7611]  INFO -- : Started GET "/assets/application-c06dd6a542ea15147e6794e03643f87c.css" for 127.0.0.1 at 2015-02-10 10:51:04 -0800
+F, [2015-02-10T10:51:04.421313 #7611] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application-c06dd6a542ea15147e6794e03643f87c.css"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-02-10T10:51:04.422455 #7611]  INFO -- : Started GET "/assets/application-cb3977d30c386fa0ed0b81a73554a52d.js" for 127.0.0.1 at 2015-02-10 10:51:04 -0800
+F, [2015-02-10T10:51:04.424137 #7611] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application-cb3977d30c386fa0ed0b81a73554a52d.js"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-02-10T10:52:19.017917 #7637]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 10:52:19 -0800
+I, [2015-02-10T10:52:19.059186 #7637]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T10:52:21.268982 #7637]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (5.7ms)
+I, [2015-02-10T10:52:21.270791 #7637]  INFO -- : Completed 200 OK in 2211ms (Views: 54.0ms | ActiveRecord: 0.0ms)
+I, [2015-02-10T10:52:31.149069 #7637]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 10:52:31 -0800
+I, [2015-02-10T10:52:31.197555 #7637]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T10:52:32.853018 #7637]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (3.9ms)
+I, [2015-02-10T10:52:32.854069 #7637]  INFO -- : Completed 200 OK in 1643ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+I, [2015-02-10T10:54:52.827302 #7657]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 10:54:52 -0800
+I, [2015-02-10T10:54:52.906572 #7657]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T10:54:54.664916 #7657]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (4.5ms)
+I, [2015-02-10T10:54:54.667261 #7657]  INFO -- : Completed 200 OK in 1760ms (Views: 60.5ms | ActiveRecord: 0.0ms)
+I, [2015-02-10T10:54:55.428373 #7657]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 10:54:55 -0800
+I, [2015-02-10T10:54:55.430368 #7657]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T10:54:56.632551 #7657]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (2.9ms)
+I, [2015-02-10T10:54:56.633553 #7657]  INFO -- : Completed 200 OK in 1203ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+I, [2015-02-10T10:54:58.899976 #7657]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 10:54:58 -0800
+I, [2015-02-10T10:54:58.901344 #7657]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T10:55:01.268701 #7657]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (3.1ms)
+I, [2015-02-10T10:55:01.269684 #7657]  INFO -- : Completed 200 OK in 2368ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+I, [2015-02-10T10:55:36.617544 #7667]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 10:55:36 -0800
+I, [2015-02-10T10:55:36.692349 #7667]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T10:55:41.426800 #7667]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (3.5ms)
+I, [2015-02-10T10:55:41.428778 #7667]  INFO -- : Completed 200 OK in 4736ms (Views: 23.4ms | ActiveRecord: 0.0ms)
+I, [2015-02-10T10:55:41.508302 #7667]  INFO -- : Started GET "/assets/application-cb3977d30c386fa0ed0b81a73554a52d.js" for 127.0.0.1 at 2015-02-10 10:55:41 -0800
+F, [2015-02-10T10:55:41.511081 #7667] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application-cb3977d30c386fa0ed0b81a73554a52d.js"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-02-10T10:55:41.570620 #7667]  INFO -- : Started GET "/assets/application-c06dd6a542ea15147e6794e03643f87c.css" for 127.0.0.1 at 2015-02-10 10:55:41 -0800
+F, [2015-02-10T10:55:41.573231 #7667] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application-c06dd6a542ea15147e6794e03643f87c.css"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-02-10T11:00:45.860945 #7697]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 11:00:45 -0800
+I, [2015-02-10T11:00:45.936530 #7697]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T11:00:47.912927 #7697]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (3.6ms)
+I, [2015-02-10T11:00:47.914996 #7697]  INFO -- : Completed 200 OK in 1978ms (Views: 78.9ms | ActiveRecord: 0.0ms)
+I, [2015-02-10T11:00:48.017069 #7697]  INFO -- : Started GET "/assets/application-cb3977d30c386fa0ed0b81a73554a52d.js" for 127.0.0.1 at 2015-02-10 11:00:48 -0800
+F, [2015-02-10T11:00:48.018525 #7697] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application-cb3977d30c386fa0ed0b81a73554a52d.js"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-02-10T11:00:48.098479 #7697]  INFO -- : Started GET "/assets/application-c06dd6a542ea15147e6794e03643f87c.css" for 127.0.0.1 at 2015-02-10 11:00:48 -0800
+F, [2015-02-10T11:00:48.100374 #7697] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application-c06dd6a542ea15147e6794e03643f87c.css"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-02-10T12:35:55.962166 #7864]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 12:35:55 -0800
+I, [2015-02-10T12:35:56.106764 #7864]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T12:35:56.625462 #7864]  INFO -- : Completed 500 Internal Server Error in 518ms
+F, [2015-02-10T12:35:56.627915 #7864] FATAL -- : 
+SocketError (getaddrinfo: nodename nor servname provided, or not known):
+  app/controllers/welcome_controller.rb:18:in `index'
+
+
+I, [2015-02-10T12:35:59.891461 #7864]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 12:35:59 -0800
+I, [2015-02-10T12:35:59.892893 #7864]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T12:35:59.916946 #7864]  INFO -- : Completed 500 Internal Server Error in 24ms
+F, [2015-02-10T12:35:59.919504 #7864] FATAL -- : 
+SocketError (getaddrinfo: nodename nor servname provided, or not known):
+  app/controllers/welcome_controller.rb:18:in `index'
+
+
+I, [2015-02-10T14:12:46.698869 #8768]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 14:12:46 -0800
+I, [2015-02-10T14:12:46.805837 #8768]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T14:12:50.730663 #8768]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (3.1ms)
+I, [2015-02-10T14:12:50.732717 #8768]  INFO -- : Completed 200 OK in 3927ms (Views: 54.7ms | ActiveRecord: 0.0ms)
+I, [2015-02-10T14:12:51.233953 #8768]  INFO -- : Started GET "/assets/application-e3e5efa720b8bf062f63e781ab790b64.js" for 127.0.0.1 at 2015-02-10 14:12:51 -0800
+F, [2015-02-10T14:12:51.235679 #8768] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application-e3e5efa720b8bf062f63e781ab790b64.js"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-02-10T14:12:51.446483 #8768]  INFO -- : Started GET "/assets/application-c06dd6a542ea15147e6794e03643f87c.css" for 127.0.0.1 at 2015-02-10 14:12:51 -0800
+F, [2015-02-10T14:12:51.448235 #8768] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application-c06dd6a542ea15147e6794e03643f87c.css"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-02-10T14:13:43.131444 #8768]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 14:13:43 -0800
+I, [2015-02-10T14:13:43.182452 #8768]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T14:13:44.734181 #8768]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (2.8ms)
+I, [2015-02-10T14:13:44.735459 #8768]  INFO -- : Completed 200 OK in 1553ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+I, [2015-02-10T14:13:44.821694 #8768]  INFO -- : Started GET "/assets/application-c06dd6a542ea15147e6794e03643f87c.css" for 127.0.0.1 at 2015-02-10 14:13:44 -0800
+F, [2015-02-10T14:13:44.822999 #8768] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application-c06dd6a542ea15147e6794e03643f87c.css"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-02-10T14:13:44.864154 #8768]  INFO -- : Started GET "/assets/application-e3e5efa720b8bf062f63e781ab790b64.js" for 127.0.0.1 at 2015-02-10 14:13:44 -0800
+F, [2015-02-10T14:13:44.866034 #8768] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application-e3e5efa720b8bf062f63e781ab790b64.js"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-02-10T14:14:59.634649 #8797]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 14:14:59 -0800
+I, [2015-02-10T14:14:59.709013 #8797]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T14:15:00.644840 #8797]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (3.2ms)
+I, [2015-02-10T14:15:00.646909 #8797]  INFO -- : Completed 200 OK in 938ms (Views: 75.7ms | ActiveRecord: 0.0ms)
+I, [2015-02-10T14:15:00.758659 #8797]  INFO -- : Started GET "/stylesheets/application/stylesheets.css" for 127.0.0.1 at 2015-02-10 14:15:00 -0800
+F, [2015-02-10T14:15:00.760134 #8797] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/application/stylesheets.css"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-02-10T14:15:00.806745 #8797]  INFO -- : Started GET "/javascripts/application/javascripts.js" for 127.0.0.1 at 2015-02-10 14:15:00 -0800
+F, [2015-02-10T14:15:00.808968 #8797] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/javascripts/application/javascripts.js"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-02-10T14:18:05.243186 #8826]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 14:18:05 -0800
+I, [2015-02-10T14:18:05.318042 #8826]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T14:18:06.171250 #8826]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (3.7ms)
+I, [2015-02-10T14:18:06.174355 #8826]  INFO -- : Completed 200 OK in 856ms (Views: 99.2ms | ActiveRecord: 0.0ms)
+I, [2015-02-10T14:18:06.509867 #8826]  INFO -- : Started GET "/assets/application-c06dd6a542ea15147e6794e03643f87c.css" for 127.0.0.1 at 2015-02-10 14:18:06 -0800
+F, [2015-02-10T14:18:06.514267 #8826] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application-c06dd6a542ea15147e6794e03643f87c.css"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-02-10T14:18:06.545438 #8826]  INFO -- : Started GET "/assets/application-e3e5efa720b8bf062f63e781ab790b64.js" for 127.0.0.1 at 2015-02-10 14:18:06 -0800
+F, [2015-02-10T14:18:06.547457 #8826] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application-e3e5efa720b8bf062f63e781ab790b64.js"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-02-10T14:18:11.233850 #8826]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 14:18:11 -0800
+I, [2015-02-10T14:18:11.235816 #8826]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T14:18:12.258026 #8826]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (3.6ms)
+I, [2015-02-10T14:18:12.370305 #8826]  INFO -- : Completed 200 OK in 1134ms (Views: 116.6ms | ActiveRecord: 0.0ms)
+I, [2015-02-10T14:18:12.427290 #8826]  INFO -- : Started GET "/assets/application-c06dd6a542ea15147e6794e03643f87c.css" for 127.0.0.1 at 2015-02-10 14:18:12 -0800
+F, [2015-02-10T14:18:12.429198 #8826] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application-c06dd6a542ea15147e6794e03643f87c.css"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-02-10T14:18:12.434895 #8826]  INFO -- : Started GET "/assets/application-e3e5efa720b8bf062f63e781ab790b64.js" for 127.0.0.1 at 2015-02-10 14:18:12 -0800
+F, [2015-02-10T14:18:12.436887 #8826] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application-e3e5efa720b8bf062f63e781ab790b64.js"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/SShaw/.rvm/rubies/ruby-2.0.0-p576/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-02-10T14:20:33.822752 #8852]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 14:20:33 -0800
+I, [2015-02-10T14:20:33.885486 #8852]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T14:20:35.776059 #8852]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (4.5ms)
+I, [2015-02-10T14:20:35.778204 #8852]  INFO -- : Completed 200 OK in 1893ms (Views: 96.1ms | ActiveRecord: 0.0ms)
+I, [2015-02-10T14:20:38.249431 #8852]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 14:20:38 -0800
+I, [2015-02-10T14:20:38.251075 #8852]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T14:20:39.061743 #8852]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (2.3ms)
+I, [2015-02-10T14:20:39.063367 #8852]  INFO -- : Completed 200 OK in 812ms (Views: 4.3ms | ActiveRecord: 0.0ms)
+I, [2015-02-10T14:20:45.893609 #8852]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 14:20:45 -0800
+I, [2015-02-10T14:20:45.949190 #8852]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T14:20:48.353075 #8852]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (2.1ms)
+I, [2015-02-10T14:20:48.353835 #8852]  INFO -- : Completed 200 OK in 2404ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+I, [2015-02-10T14:21:20.383763 #8852]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 14:21:20 -0800
+I, [2015-02-10T14:21:20.401946 #8852]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T14:21:21.539879 #8852]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (2.6ms)
+I, [2015-02-10T14:21:21.540846 #8852]  INFO -- : Completed 200 OK in 1139ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+I, [2015-02-10T14:30:31.487661 #8852]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 14:30:31 -0800
+I, [2015-02-10T14:30:31.531542 #8852]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T14:30:33.002189 #8852]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (3.5ms)
+I, [2015-02-10T14:30:33.010907 #8852]  INFO -- : Completed 200 OK in 1475ms (Views: 15.3ms | ActiveRecord: 0.0ms)
+I, [2015-02-10T14:31:03.600510 #8852]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 14:31:03 -0800
+I, [2015-02-10T14:31:03.692644 #8852]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T14:31:05.137147 #8852]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (2.4ms)
+I, [2015-02-10T14:31:05.138464 #8852]  INFO -- : Completed 200 OK in 1446ms (Views: 4.3ms | ActiveRecord: 0.0ms)
+I, [2015-02-10T14:31:25.354795 #8852]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 14:31:25 -0800
+I, [2015-02-10T14:31:25.395522 #8852]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T14:31:26.562292 #8852]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (1.9ms)
+I, [2015-02-10T14:31:26.563089 #8852]  INFO -- : Completed 200 OK in 1167ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+I, [2015-02-10T15:03:22.643385 #9098]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 15:03:22 -0800
+I, [2015-02-10T15:03:33.566385 #9098]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T15:03:38.612162 #9098]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (581.8ms)
+I, [2015-02-10T15:03:38.617728 #9098]  INFO -- : Completed 200 OK in 4966ms (Views: 1477.7ms | ActiveRecord: 0.0ms)
+I, [2015-02-10T15:03:38.863978 #9098]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 15:03:38 -0800
+I, [2015-02-10T15:03:38.865352 #9098]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T15:03:40.845409 #9098]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (333.3ms)
+I, [2015-02-10T15:03:40.847353 #9098]  INFO -- : Completed 200 OK in 1982ms (Views: 335.8ms | ActiveRecord: 0.0ms)
+I, [2015-02-10T18:54:07.837770 #9185]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 18:54:07 -0800
+I, [2015-02-10T18:54:08.947869 #9185]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T18:57:18.277477 #9185]  INFO -- : Completed 500 Internal Server Error in 189297ms
+F, [2015-02-10T18:57:18.301163 #9185] FATAL -- : 
+Errno::ECONNRESET (Connection reset by peer - SSL_connect):
+  app/controllers/welcome_controller.rb:18:in `index'
+
+
+I, [2015-02-10T18:57:34.173426 #9185]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 18:57:34 -0800
+I, [2015-02-10T18:57:34.204554 #9185]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T18:57:57.408465 #9185]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (610.8ms)
+I, [2015-02-10T18:57:57.424845 #9185]  INFO -- : Completed 200 OK in 23220ms (Views: 719.4ms | ActiveRecord: 0.0ms)
+I, [2015-02-10T19:09:43.892358 #9185]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 19:09:43 -0800
+I, [2015-02-10T19:09:43.942224 #9185]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T19:09:46.171636 #9185]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (452.9ms)
+I, [2015-02-10T19:09:46.229083 #9185]  INFO -- : Completed 200 OK in 2286ms (Views: 513.4ms | ActiveRecord: 0.0ms)
+I, [2015-02-10T19:10:04.439004 #9185]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 19:10:04 -0800
+I, [2015-02-10T19:10:04.455097 #9185]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T19:10:06.788457 #9185]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (333.3ms)
+I, [2015-02-10T19:10:06.793019 #9185]  INFO -- : Completed 200 OK in 2338ms (Views: 338.3ms | ActiveRecord: 0.0ms)
+I, [2015-02-10T19:10:33.883858 #9185]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 19:10:33 -0800
+I, [2015-02-10T19:10:33.898062 #9185]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T19:10:36.962833 #9185]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (299.4ms)
+I, [2015-02-10T19:10:36.964729 #9185]  INFO -- : Completed 200 OK in 3066ms (Views: 301.7ms | ActiveRecord: 0.0ms)
+I, [2015-02-10T19:10:48.457908 #9185]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 19:10:48 -0800
+I, [2015-02-10T19:10:48.526337 #9185]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T19:10:52.762490 #9185]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (330.3ms)
+I, [2015-02-10T19:10:52.764399 #9185]  INFO -- : Completed 200 OK in 4238ms (Views: 332.6ms | ActiveRecord: 0.0ms)
+I, [2015-02-10T19:16:03.883239 #9572]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 19:16:03 -0800
+I, [2015-02-10T19:16:04.023143 #9572]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T19:16:59.244307 #9572]  INFO -- : Completed 500 Internal Server Error in 55221ms
+F, [2015-02-10T19:16:59.261566 #9572] FATAL -- : 
+Errno::ENOPROTOOPT (Protocol not available - connect(2)):
+  app/controllers/welcome_controller.rb:18:in `index'
+
+
+I, [2015-02-10T19:16:59.310771 #9572]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 19:16:59 -0800
+I, [2015-02-10T19:16:59.312682 #9572]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T19:20:53.587315 #9572]  INFO -- : Completed   in 234274ms
+I, [2015-02-10T19:21:48.997205 #9617]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 19:21:48 -0800
+I, [2015-02-10T19:21:49.027933 #9617]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T19:22:57.151116 #9617]  INFO -- : Completed 500 Internal Server Error in 68123ms
+F, [2015-02-10T19:22:57.163245 #9617] FATAL -- : 
+OpenSSL::SSL::SSLError (SSL_connect SYSCALL returned=5 errno=0 state=SSLv2/v3 read server hello A):
+  app/controllers/welcome_controller.rb:18:in `index'
+
+
+I, [2015-02-10T19:22:57.233627 #9617]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 19:22:57 -0800
+I, [2015-02-10T19:22:57.237513 #9617]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T19:24:18.880574 #9617]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (185.1ms)
+I, [2015-02-10T19:24:18.891257 #9617]  INFO -- : Completed 500 Internal Server Error in 81653ms
+F, [2015-02-10T19:24:18.895242 #9617] FATAL -- : 
+ActionView::Template::Error (undefined local variable or method `hilo' for #<#<Class:0x007ff011ef9af8>:0x007ff011f02c70>):
+     8: 	<% @rlat=@response['data'][i]['location']['latitude'] %>
+     9: 	<% @rlong=@response['data'][i]['location']['longitude'] %>
+    10: 
+    11: 	<%= "#{hilo}" %>
+    12: 	<%=javascript_tag showCurrentLocation("#{@response}") %>
+    13: 
+    14: 	<% end %>
+  app/views/welcome/index.html.erb:11:in `block in _app_views_welcome_index_html_erb__3959635434810675584_70334525698100'
+  app/views/welcome/index.html.erb:6:in `each'
+  app/views/welcome/index.html.erb:6:in `each_with_index'
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb__3959635434810675584_70334525698100'
+
+
+I, [2015-02-10T19:24:50.623526 #9617]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 19:24:50 -0800
+I, [2015-02-10T19:24:50.658249 #9617]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T19:25:13.960162 #9617]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (145.8ms)
+I, [2015-02-10T19:25:13.960529 #9617]  INFO -- : Completed 500 Internal Server Error in 23302ms
+F, [2015-02-10T19:25:13.963426 #9617] FATAL -- : 
+ActionView::Template::Error (undefined local variable or method `hilo' for #<#<Class:0x007ff011ef9af8>:0x007ff010d05608>):
+     8: 	<% @rlat=@response['data'][i]['location']['latitude'] %>
+     9: 	<% @rlong=@response['data'][i]['location']['longitude'] %>
+    10: 
+    11: 	<%= "#{hilo}" %>
+    12: 	<%=javascript_tag showCurrentLocation("#{@response}") %>
+    13: 
+    14: 	<% end %>
+  app/views/welcome/index.html.erb:11:in `block in _app_views_welcome_index_html_erb__3959635434810675584_70334525698100'
+  app/views/welcome/index.html.erb:6:in `each'
+  app/views/welcome/index.html.erb:6:in `each_with_index'
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb__3959635434810675584_70334525698100'
+
+
+I, [2015-02-10T19:29:25.179241 #9617]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 19:29:25 -0800
+I, [2015-02-10T19:29:25.270803 #9617]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T19:30:32.766257 #9617]  INFO -- : Completed 500 Internal Server Error in 67495ms
+F, [2015-02-10T19:30:32.785104 #9617] FATAL -- : 
+Zlib::BufError (buffer error):
+  app/controllers/welcome_controller.rb:18:in `index'
+
+
+I, [2015-02-10T19:30:39.838400 #9617]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 19:30:39 -0800
+I, [2015-02-10T19:30:39.868633 #9617]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T19:30:48.384238 #9617]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (262.2ms)
+I, [2015-02-10T19:30:48.385280 #9617]  INFO -- : Completed 500 Internal Server Error in 8516ms
+F, [2015-02-10T19:30:48.387455 #9617] FATAL -- : 
+ActionView::Template::Error (undefined local variable or method `hilo' for #<#<Class:0x007ff011ef9af8>:0x007ff0129ae7a0>):
+     8: 	<% @rlat=@response['data'][i]['location']['latitude'] %>
+     9: 	<% @rlong=@response['data'][i]['location']['longitude'] %>
+    10: 
+    11: 	<%= "#{hilo}" %>
+    12: 	<%=javascript_tag "showCurrentLocation(#{@response})" %>
+    13: 
+    14: 	<% end %>
+  app/views/welcome/index.html.erb:11:in `block in _app_views_welcome_index_html_erb__3959635434810675584_70334525698100'
+  app/views/welcome/index.html.erb:6:in `each'
+  app/views/welcome/index.html.erb:6:in `each_with_index'
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb__3959635434810675584_70334525698100'
+
+
+I, [2015-02-10T19:42:27.142101 #582]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 19:42:27 -0800
+I, [2015-02-10T19:42:28.384775 #582]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T19:42:32.777528 #582]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (131.7ms)
+I, [2015-02-10T19:42:32.777819 #582]  INFO -- : Completed 500 Internal Server Error in 4393ms
+F, [2015-02-10T19:42:32.779765 #582] FATAL -- : 
+ActionView::Template::Error (undefined local variable or method `hilo' for #<#<Class:0x007fe7b9e87be8>:0x007fe7b9e855a0>):
+     8: 	<% @rlat=@response['data'][i]['location']['latitude'] %>
+     9: 	<% @rlong=@response['data'][i]['location']['longitude'] %>
+    10: 
+    11: 	<%= "#{hilo}" %>
+    12: 	<%=javascript_tag "showCurrentLocation(#{@response})" %>
+    13: 
+    14: 	<% end %>
+  app/views/welcome/index.html.erb:11:in `block in _app_views_welcome_index_html_erb___1522902938176385352_70316616711060'
+  app/views/welcome/index.html.erb:6:in `each'
+  app/views/welcome/index.html.erb:6:in `each_with_index'
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb___1522902938176385352_70316616711060'
+
+
+I, [2015-02-10T19:43:09.123288 #582]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 19:43:09 -0800
+I, [2015-02-10T19:43:09.144588 #582]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T19:43:12.747205 #582]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (204.0ms)
+I, [2015-02-10T19:43:12.747523 #582]  INFO -- : Completed 500 Internal Server Error in 3603ms
+F, [2015-02-10T19:43:12.749962 #582] FATAL -- : 
+ActionView::Template::Error (undefined local variable or method `hilo' for #<#<Class:0x007fe7b9e87be8>:0x007fe7ba4d6058>):
+     8: 	<% @rlat=@response['data'][i]['location']['latitude'] %>
+     9: 	<% @rlong=@response['data'][i]['location']['longitude'] %>
+    10: 
+    11: 	<%= "#{hilo}" %>
+    12: 	<%=javascript_tag "showCurrentLocation(#{@response})" %>
+    13: 
+    14: 	<% end %>
+  app/views/welcome/index.html.erb:11:in `block in _app_views_welcome_index_html_erb___1522902938176385352_70316616711060'
+  app/views/welcome/index.html.erb:6:in `each'
+  app/views/welcome/index.html.erb:6:in `each_with_index'
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb___1522902938176385352_70316616711060'
+
+
+I, [2015-02-10T19:43:58.747114 #582]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 19:43:58 -0800
+I, [2015-02-10T19:43:58.778431 #582]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T19:44:01.527772 #582]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (153.4ms)
+I, [2015-02-10T19:44:01.528079 #582]  INFO -- : Completed 500 Internal Server Error in 2749ms
+F, [2015-02-10T19:44:01.531803 #582] FATAL -- : 
+ActionView::Template::Error (undefined local variable or method `hilo' for #<#<Class:0x007fe7b9e87be8>:0x007fe7bd010160>):
+     8: 	<% @rlat=@response['data'][i]['location']['latitude'] %>
+     9: 	<% @rlong=@response['data'][i]['location']['longitude'] %>
+    10: 
+    11: 	<%= "#{hilo}" %>
+    12: 	<%=javascript_tag "showCurrentLocation(#{@response})" %>
+    13: 
+    14: 	<% end %>
+  app/views/welcome/index.html.erb:11:in `block in _app_views_welcome_index_html_erb___1522902938176385352_70316616711060'
+  app/views/welcome/index.html.erb:6:in `each'
+  app/views/welcome/index.html.erb:6:in `each_with_index'
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb___1522902938176385352_70316616711060'
+
+
+I, [2015-02-10T19:44:10.563588 #582]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 19:44:10 -0800
+I, [2015-02-10T19:44:10.565413 #582]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T19:44:13.482487 #582]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (110.9ms)
+I, [2015-02-10T19:44:13.482755 #582]  INFO -- : Completed 500 Internal Server Error in 2917ms
+F, [2015-02-10T19:44:13.484689 #582] FATAL -- : 
+ActionView::Template::Error (undefined local variable or method `hilo' for #<#<Class:0x007fe7b9e87be8>:0x007fe7bd02a1a0>):
+     8: 	<% @rlat=@response['data'][i]['location']['latitude'] %>
+     9: 	<% @rlong=@response['data'][i]['location']['longitude'] %>
+    10: 
+    11: 	<%= "#{hilo}" %>
+    12: 	<%=javascript_tag "showCurrentLocation(#{@response})" %>
+    13: 
+    14: 	<% end %>
+  app/views/welcome/index.html.erb:11:in `block in _app_views_welcome_index_html_erb___1522902938176385352_70316616711060'
+  app/views/welcome/index.html.erb:6:in `each'
+  app/views/welcome/index.html.erb:6:in `each_with_index'
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb___1522902938176385352_70316616711060'
+
+
+I, [2015-02-10T19:45:11.285196 #582]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 19:45:11 -0800
+I, [2015-02-10T19:45:11.286630 #582]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T19:45:13.099127 #582]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (108.3ms)
+I, [2015-02-10T19:45:13.099395 #582]  INFO -- : Completed 500 Internal Server Error in 1813ms
+F, [2015-02-10T19:45:13.101657 #582] FATAL -- : 
+ActionView::Template::Error (undefined local variable or method `hilo' for #<#<Class:0x007fe7b9e87be8>:0x007fe7bd0315b8>):
+     8: 	<% @rlat=@response['data'][i]['location']['latitude'] %>
+     9: 	<% @rlong=@response['data'][i]['location']['longitude'] %>
+    10: 
+    11: 	<%= "#{hilo}" %>
+    12: 	<%=javascript_tag "showCurrentLocation(#{@response})" %>
+    13: 
+    14: 	<% end %>
+  app/views/welcome/index.html.erb:11:in `block in _app_views_welcome_index_html_erb___1522902938176385352_70316616711060'
+  app/views/welcome/index.html.erb:6:in `each'
+  app/views/welcome/index.html.erb:6:in `each_with_index'
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb___1522902938176385352_70316616711060'
+
+
+I, [2015-02-10T19:45:32.960967 #582]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 19:45:32 -0800
+I, [2015-02-10T19:45:32.962969 #582]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T19:45:34.886097 #582]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (157.4ms)
+I, [2015-02-10T19:45:34.886365 #582]  INFO -- : Completed 500 Internal Server Error in 1923ms
+F, [2015-02-10T19:45:34.888265 #582] FATAL -- : 
+ActionView::Template::Error (undefined local variable or method `hilo' for #<#<Class:0x007fe7b9e87be8>:0x007fe7bd02b618>):
+     8: 	<% @rlat=@response['data'][i]['location']['latitude'] %>
+     9: 	<% @rlong=@response['data'][i]['location']['longitude'] %>
+    10: 
+    11: 	<%= "#{hilo}" %>
+    12: 	<%=javascript_tag "showCurrentLocation(#{@response})" %>
+    13: 
+    14: 	<% end %>
+  app/views/welcome/index.html.erb:11:in `block in _app_views_welcome_index_html_erb___1522902938176385352_70316616711060'
+  app/views/welcome/index.html.erb:6:in `each'
+  app/views/welcome/index.html.erb:6:in `each_with_index'
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb___1522902938176385352_70316616711060'
+
+
+I, [2015-02-10T19:45:54.299823 #582]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 19:45:54 -0800
+I, [2015-02-10T19:45:54.301845 #582]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T19:45:56.651443 #582]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (401.8ms)
+I, [2015-02-10T19:45:56.651712 #582]  INFO -- : Completed 500 Internal Server Error in 2350ms
+F, [2015-02-10T19:45:56.653631 #582] FATAL -- : 
+ActionView::Template::Error (undefined local variable or method `hilo' for #<#<Class:0x007fe7b9e87be8>:0x007fe7b91666a8>):
+     8: 	<% @rlat=@response['data'][i]['location']['latitude'] %>
+     9: 	<% @rlong=@response['data'][i]['location']['longitude'] %>
+    10: 
+    11: 	<%= "hello" %>
+    12: 	<%=javascript_tag "showCurrentLocation(#{@response})" %>
+    13: 
+    14: 	<% end %>
+  app/views/welcome/index.html.erb:11:in `block in _app_views_welcome_index_html_erb___1522902938176385352_70316616711060'
+  app/views/welcome/index.html.erb:6:in `each'
+  app/views/welcome/index.html.erb:6:in `each_with_index'
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb___1522902938176385352_70316616711060'
+
+
+I, [2015-02-10T19:46:44.115664 #582]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 19:46:44 -0800
+I, [2015-02-10T19:46:44.161782 #582]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T19:46:45.880521 #582]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (89.4ms)
+I, [2015-02-10T19:46:45.880800 #582]  INFO -- : Completed 500 Internal Server Error in 1719ms
+F, [2015-02-10T19:46:45.882982 #582] FATAL -- : 
+ActionView::Template::Error (undefined local variable or method `hilo' for #<#<Class:0x007fe7b9e87be8>:0x007fe7b9164150>):
+     8: 	<% @rlat=@response['data'][i]['location']['latitude'] %>
+     9: 	<% @rlong=@response['data'][i]['location']['longitude'] %>
+    10: 
+    11: 	<%= "hello" %>
+    12: 	<%=javascript_tag "showCurrentLocation(#{@response})" %>
+    13: 
+    14: 	<% end %>
+  app/views/welcome/index.html.erb:11:in `block in _app_views_welcome_index_html_erb___1522902938176385352_70316616711060'
+  app/views/welcome/index.html.erb:6:in `each'
+  app/views/welcome/index.html.erb:6:in `each_with_index'
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb___1522902938176385352_70316616711060'
+
+
+I, [2015-02-10T19:47:32.450090 #582]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 19:47:32 -0800
+I, [2015-02-10T19:47:32.474233 #582]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T19:47:33.938672 #582]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (90.1ms)
+I, [2015-02-10T19:47:33.938941 #582]  INFO -- : Completed 500 Internal Server Error in 1465ms
+F, [2015-02-10T19:47:33.941050 #582] FATAL -- : 
+ActionView::Template::Error (undefined local variable or method `hilo' for #<#<Class:0x007fe7b9e87be8>:0x007fe7b916c490>):
+     8: 	<% @rlat=@response['data'][i]['location']['latitude'] %>
+     9: 	<% @rlong=@response['data'][i]['location']['longitude'] %>
+    10: 
+    11: 	<%= "hello" %>
+    12: 	<%=javascript_tag "showCurrentLocation(#{@response})" %>
+    13: 
+    14: 	<% end %>
+  app/views/welcome/index.html.erb:11:in `block in _app_views_welcome_index_html_erb___1522902938176385352_70316616711060'
+  app/views/welcome/index.html.erb:6:in `each'
+  app/views/welcome/index.html.erb:6:in `each_with_index'
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb___1522902938176385352_70316616711060'
+
+
+I, [2015-02-10T19:47:43.796232 #582]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 19:47:43 -0800
+I, [2015-02-10T19:47:43.797958 #582]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T19:47:45.690980 #582]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (123.0ms)
+I, [2015-02-10T19:47:45.691351 #582]  INFO -- : Completed 500 Internal Server Error in 1893ms
+F, [2015-02-10T19:47:45.694553 #582] FATAL -- : 
+ActionView::Template::Error (undefined local variable or method `hilo' for #<#<Class:0x007fe7b9e87be8>:0x007fe7b916c940>):
+     8: 	<% @rlat=@response['data'][i]['location']['latitude'] %>
+     9: 	<% @rlong=@response['data'][i]['location']['longitude'] %>
+    10: 
+    11: 	<%= "hello" %>
+    12: 	<%=javascript_tag "showCurrentLocation(#{@response})" %>
+    13: 
+    14: 	<% end %>
+  app/views/welcome/index.html.erb:11:in `block in _app_views_welcome_index_html_erb___1522902938176385352_70316616711060'
+  app/views/welcome/index.html.erb:6:in `each'
+  app/views/welcome/index.html.erb:6:in `each_with_index'
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb___1522902938176385352_70316616711060'
+
+
+I, [2015-02-10T19:49:24.126834 #639]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 19:49:24 -0800
+I, [2015-02-10T19:49:24.168292 #639]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T19:49:31.446697 #639]  INFO -- : Completed 500 Internal Server Error in 7278ms
+F, [2015-02-10T19:49:31.449089 #639] FATAL -- : 
+Errno::ECONNRESET (Connection reset by peer - SSL_connect):
+  app/controllers/welcome_controller.rb:18:in `index'
+
+
+I, [2015-02-10T19:49:51.345609 #639]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 19:49:51 -0800
+I, [2015-02-10T19:49:51.347637 #639]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T19:49:53.741347 #639]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (323.3ms)
+I, [2015-02-10T19:49:53.744461 #639]  INFO -- : Completed 200 OK in 2397ms (Views: 595.1ms | ActiveRecord: 0.0ms)
+I, [2015-02-10T19:50:26.609909 #639]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 19:50:26 -0800
+I, [2015-02-10T19:50:26.619188 #639]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T19:50:28.085158 #639]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (296.8ms)
+I, [2015-02-10T19:50:28.086781 #639]  INFO -- : Completed 200 OK in 1467ms (Views: 298.9ms | ActiveRecord: 0.0ms)
+I, [2015-02-10T19:54:25.431952 #639]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 19:54:25 -0800
+I, [2015-02-10T19:54:25.463357 #639]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T19:54:27.559377 #639]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (247.0ms)
+I, [2015-02-10T19:54:27.561020 #639]  INFO -- : Completed 200 OK in 2097ms (Views: 249.5ms | ActiveRecord: 0.0ms)
+I, [2015-02-10T19:56:54.119006 #639]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 19:56:54 -0800
+I, [2015-02-10T19:56:54.130813 #639]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T19:57:01.592029 #639]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (250.4ms)
+I, [2015-02-10T19:57:01.593798 #639]  INFO -- : Completed 200 OK in 7463ms (Views: 252.4ms | ActiveRecord: 0.0ms)
+I, [2015-02-10T19:57:46.241448 #639]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 19:57:46 -0800
+I, [2015-02-10T19:57:46.262931 #639]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T19:57:47.861736 #639]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (241.2ms)
+I, [2015-02-10T19:57:47.863556 #639]  INFO -- : Completed 200 OK in 1600ms (Views: 243.5ms | ActiveRecord: 0.0ms)
+I, [2015-02-10T19:58:05.990445 #639]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 19:58:05 -0800
+I, [2015-02-10T19:58:06.039349 #639]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T19:58:08.100543 #639]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (243.0ms)
+I, [2015-02-10T19:58:08.102610 #639]  INFO -- : Completed 200 OK in 2063ms (Views: 245.4ms | ActiveRecord: 0.0ms)
+I, [2015-02-10T19:59:49.114942 #639]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 19:59:49 -0800
+I, [2015-02-10T19:59:49.124321 #639]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T19:59:52.501233 #639]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (238.7ms)
+I, [2015-02-10T19:59:52.503302 #639]  INFO -- : Completed 200 OK in 3379ms (Views: 241.4ms | ActiveRecord: 0.0ms)
+I, [2015-02-10T20:01:34.139755 #639]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 20:01:34 -0800
+I, [2015-02-10T20:01:34.157730 #639]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T20:01:52.519202 #639]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (243.8ms)
+I, [2015-02-10T20:01:52.540680 #639]  INFO -- : Completed 200 OK in 18383ms (Views: 265.8ms | ActiveRecord: 0.0ms)
+I, [2015-02-10T20:04:49.679631 #707]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 20:04:49 -0800
+I, [2015-02-10T20:04:49.712191 #707]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T20:04:52.355011 #707]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (299.1ms)
+I, [2015-02-10T20:04:52.358177 #707]  INFO -- : Completed 200 OK in 2646ms (Views: 342.8ms | ActiveRecord: 0.0ms)
+I, [2015-02-10T20:07:13.305413 #707]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 20:07:13 -0800
+I, [2015-02-10T20:07:13.318377 #707]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T20:07:14.581121 #707]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (293.9ms)
+I, [2015-02-10T20:07:14.583164 #707]  INFO -- : Completed 200 OK in 1264ms (Views: 296.4ms | ActiveRecord: 0.0ms)
+I, [2015-02-10T20:09:22.143351 #707]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 20:09:22 -0800
+I, [2015-02-10T20:09:22.241108 #707]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T20:09:51.352599 #707]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (327.1ms)
+I, [2015-02-10T20:09:51.427129 #707]  INFO -- : Completed 200 OK in 29186ms (Views: 402.0ms | ActiveRecord: 0.0ms)
+I, [2015-02-10T20:12:40.149792 #707]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 20:12:40 -0800
+I, [2015-02-10T20:12:40.164545 #707]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T20:12:46.239774 #707]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (406.5ms)
+I, [2015-02-10T20:12:46.258246 #707]  INFO -- : Completed 200 OK in 6080ms (Views: 423.3ms | ActiveRecord: 0.0ms)
+I, [2015-02-10T20:13:00.497287 #707]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 20:13:00 -0800
+I, [2015-02-10T20:13:00.515187 #707]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T20:13:05.444221 #707]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (300.9ms)
+I, [2015-02-10T20:13:05.446972 #707]  INFO -- : Completed 200 OK in 4932ms (Views: 304.0ms | ActiveRecord: 0.0ms)
+I, [2015-02-10T20:13:31.555308 #707]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 20:13:31 -0800
+I, [2015-02-10T20:13:31.566058 #707]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T20:13:49.060457 #707]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (327.9ms)
+I, [2015-02-10T20:13:49.062824 #707]  INFO -- : Completed 200 OK in 17496ms (Views: 330.8ms | ActiveRecord: 0.0ms)
+I, [2015-02-10T20:15:35.333664 #707]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 20:15:35 -0800
+I, [2015-02-10T20:15:35.347881 #707]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T20:15:52.482842 #707]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (241.9ms)
+I, [2015-02-10T20:15:52.539908 #707]  INFO -- : Completed 200 OK in 17192ms (Views: 299.5ms | ActiveRecord: 0.0ms)
+I, [2015-02-10T20:18:58.785379 #766]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 20:18:58 -0800
+I, [2015-02-10T20:18:58.892581 #766]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T20:19:10.987025 #766]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (3.1ms)
+I, [2015-02-10T20:19:10.987338 #766]  INFO -- : Completed 500 Internal Server Error in 12095ms
+F, [2015-02-10T20:19:10.990091 #766] FATAL -- : 
+ActionView::Template::Error (undefined method `each_with_index' for "data":String):
+    3: <div id="mapPlaceholder"></div>
+    4: 
+    5: 
+    6: 	<% @response["data"].each_with_index do |x, i| %>
+    7: 	<% @img=@response['data'][i]['images']['low_resolution']['url'] %>
+    8: 	<% @rlat=@response['data'][i]['location']['latitude'] %>
+    9: 	<% @rlong=@response['data'][i]['location']['longitude'] %>
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb___4323642679514683644_70290877175920'
+
+
+I, [2015-02-10T20:19:11.017937 #766]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 20:19:11 -0800
+I, [2015-02-10T20:19:11.019764 #766]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T20:19:12.122262 #766]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (1.0ms)
+I, [2015-02-10T20:19:12.122478 #766]  INFO -- : Completed 500 Internal Server Error in 1103ms
+F, [2015-02-10T20:19:12.124217 #766] FATAL -- : 
+ActionView::Template::Error (undefined method `each_with_index' for "data":String):
+    3: <div id="mapPlaceholder"></div>
+    4: 
+    5: 
+    6: 	<% @response["data"].each_with_index do |x, i| %>
+    7: 	<% @img=@response['data'][i]['images']['low_resolution']['url'] %>
+    8: 	<% @rlat=@response['data'][i]['location']['latitude'] %>
+    9: 	<% @rlong=@response['data'][i]['location']['longitude'] %>
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb___4323642679514683644_70290877175920'
+
+
+I, [2015-02-10T20:19:58.024134 #766]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 20:19:58 -0800
+I, [2015-02-10T20:19:58.026242 #766]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T20:20:02.195804 #766]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (1.0ms)
+I, [2015-02-10T20:20:02.196015 #766]  INFO -- : Completed 500 Internal Server Error in 4170ms
+F, [2015-02-10T20:20:02.197946 #766] FATAL -- : 
+ActionView::Template::Error (undefined method `each_with_index' for "data":String):
+    3: <div id="mapPlaceholder"></div>
+    4: 
+    5: 
+    6: 	<% @response["data"].each_with_index do |x, i| %>
+    7: 	<% @img=@response['data'][i]['images']['low_resolution']['url'] %>
+    8: 	<% @rlat=@response['data'][i]['location']['latitude'] %>
+    9: 	<% @rlong=@response['data'][i]['location']['longitude'] %>
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb___4323642679514683644_70290877175920'
+
+
+I, [2015-02-10T20:20:41.539133 #775]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 20:20:41 -0800
+I, [2015-02-10T20:20:41.544690 #775]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T20:20:46.247708 #775]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (1.5ms)
+I, [2015-02-10T20:20:46.247935 #775]  INFO -- : Completed 500 Internal Server Error in 4703ms
+F, [2015-02-10T20:20:46.249733 #775] FATAL -- : 
+ActionView::Template::Error (undefined method `each_with_index' for "data":String):
+    3: <div id="mapPlaceholder"></div>
+    4: 
+    5: 
+    6: 	<% @response["data"].each_with_index do |x, i| %>
+    7: 	<% @img=@response['data'][i]['images']['low_resolution']['url'] %>
+    8: 	<% @rlat=@response['data'][i]['location']['latitude'] %>
+    9: 	<% @rlong=@response['data'][i]['location']['longitude'] %>
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb___2669903201887513242_70176217777960'
+
+
+I, [2015-02-10T20:26:25.598200 #795]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 20:26:25 -0800
+I, [2015-02-10T20:26:25.639796 #795]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T20:26:37.016763 #795]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (2.9ms)
+I, [2015-02-10T20:26:37.017215 #795]  INFO -- : Completed 500 Internal Server Error in 11377ms
+F, [2015-02-10T20:26:37.020043 #795] FATAL -- : 
+ActionView::Template::Error (undefined method `each_with_index' for "data":String):
+    3: <div id="mapPlaceholder"></div>
+    4: 
+    5: 
+    6: 	<% @response["data"].each_with_index do |x, i| %>
+    7: 	<% @img=@response['data'][i]['images']['low_resolution']['url'] %>
+    8: 	<% @rlat=@response['data'][i]['location']['latitude'] %>
+    9: 	<% @rlong=@response['data'][i]['location']['longitude'] %>
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb__3537170466293180544_70348066659640'
+
+
+I, [2015-02-10T20:34:36.829465 #795]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 20:34:36 -0800
+I, [2015-02-10T20:34:36.883791 #795]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T20:34:45.484412 #795]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (21.6ms)
+I, [2015-02-10T20:34:45.484708 #795]  INFO -- : Completed 500 Internal Server Error in 8601ms
+F, [2015-02-10T20:34:45.487057 #795] FATAL -- : 
+ActionView::Template::Error (undefined method `each_with_index' for "data":String):
+    3: <div id="mapPlaceholder"></div>
+    4: 
+    5: 
+    6: 	<% @response["data"].each_with_index do |x, i| %>
+    7: 	<% @img=@response['data'][i]['images']['low_resolution']['url'] %>
+    8: 	<% @rlat=@response['data'][i]['location']['latitude'] %>
+    9: 	<% @rlong=@response['data'][i]['location']['longitude'] %>
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb__3537170466293180544_70348066659640'
+
+
+I, [2015-02-10T20:35:04.011609 #795]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 20:35:04 -0800
+I, [2015-02-10T20:35:04.013023 #795]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T20:35:22.014690 #795]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (0.9ms)
+I, [2015-02-10T20:35:22.014862 #795]  INFO -- : Completed 500 Internal Server Error in 18002ms
+F, [2015-02-10T20:35:22.016584 #795] FATAL -- : 
+ActionView::Template::Error (undefined method `each_with_index' for "data":String):
+    3: <div id="mapPlaceholder"></div>
+    4: 
+    5: 
+    6: 	<% @response["data"].each_with_index do |x, i| %>
+    7: 	<% @img=@response['data'][i]['images']['low_resolution']['url'] %>
+    8: 	<% @rlat=@response['data'][i]['location']['latitude'] %>
+    9: 	<% @rlong=@response['data'][i]['location']['longitude'] %>
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb__3537170466293180544_70348066659640'
+
+
+I, [2015-02-10T20:39:04.363787 #795]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 20:39:04 -0800
+I, [2015-02-10T20:39:04.377417 #795]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T20:39:40.077811 #795]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (75.1ms)
+I, [2015-02-10T20:39:40.103583 #795]  INFO -- : Completed 500 Internal Server Error in 35726ms
+F, [2015-02-10T20:39:40.106261 #795] FATAL -- : 
+ActionView::Template::Error (undefined method `each_with_index' for "data":String):
+    3: <div id="mapPlaceholder"></div>
+    4: 
+    5: 
+    6: 	<% @response["data"].each_with_index do |x, i| %>
+    7: 	<% @img=@response['data'][i]['images']['low_resolution']['url'] %>
+    8: 	<% @rlat=@response['data'][i]['location']['latitude'] %>
+    9: 	<% @rlong=@response['data'][i]['location']['longitude'] %>
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb__3537170466293180544_70348066659640'
+
+
+I, [2015-02-10T20:39:40.130498 #795]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 20:39:40 -0800
+I, [2015-02-10T20:39:40.132137 #795]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T20:39:45.505527 #795]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (1.8ms)
+I, [2015-02-10T20:39:45.505774 #795]  INFO -- : Completed 500 Internal Server Error in 5373ms
+F, [2015-02-10T20:39:45.509529 #795] FATAL -- : 
+ActionView::Template::Error (undefined method `each_with_index' for "data":String):
+    3: <div id="mapPlaceholder"></div>
+    4: 
+    5: 
+    6: 	<% @response["data"].each_with_index do |x, i| %>
+    7: 	<% @img=@response['data'][i]['images']['low_resolution']['url'] %>
+    8: 	<% @rlat=@response['data'][i]['location']['latitude'] %>
+    9: 	<% @rlong=@response['data'][i]['location']['longitude'] %>
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb__3537170466293180544_70348066659640'
+
+
+I, [2015-02-10T20:39:58.501813 #795]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 20:39:58 -0800
+I, [2015-02-10T20:39:58.533160 #795]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T20:39:59.449020 #795]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (17.7ms)
+I, [2015-02-10T20:39:59.449244 #795]  INFO -- : Completed 500 Internal Server Error in 916ms
+F, [2015-02-10T20:39:59.451878 #795] FATAL -- : 
+ActionView::Template::Error (undefined method `each_with_index' for "data":String):
+    3: <div id="mapPlaceholder"></div>
+    4: 
+    5: 
+    6: 	<% @response["data"].each_with_index do |x, i| %>
+    7: 	<% @img=@response['data'][i]['images']['low_resolution']['url'] %>
+    8: 	<% @rlat=@response['data'][i]['location']['latitude'] %>
+    9: 	<% @rlong=@response['data'][i]['location']['longitude'] %>
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb__3537170466293180544_70348066659640'
+
+
+I, [2015-02-10T20:40:06.786556 #795]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 20:40:06 -0800
+I, [2015-02-10T20:40:06.788014 #795]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T20:40:13.261966 #795]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (1.0ms)
+I, [2015-02-10T20:40:13.262180 #795]  INFO -- : Completed 500 Internal Server Error in 6474ms
+F, [2015-02-10T20:40:13.263914 #795] FATAL -- : 
+ActionView::Template::Error (undefined method `each_with_index' for "data":String):
+    3: <div id="mapPlaceholder"></div>
+    4: 
+    5: 
+    6: 	<% @response["data"].each_with_index do |x, i| %>
+    7: 	<% @img=@response['data'][i]['images']['low_resolution']['url'] %>
+    8: 	<% @rlat=@response['data'][i]['location']['latitude'] %>
+    9: 	<% @rlong=@response['data'][i]['location']['longitude'] %>
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb__3537170466293180544_70348066659640'
+
+
+I, [2015-02-10T20:40:17.876870 #795]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 20:40:17 -0800
+I, [2015-02-10T20:40:17.878823 #795]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T20:40:18.874369 #795]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (1.0ms)
+I, [2015-02-10T20:40:18.874535 #795]  INFO -- : Completed 500 Internal Server Error in 996ms
+F, [2015-02-10T20:40:18.876228 #795] FATAL -- : 
+ActionView::Template::Error (undefined method `each_with_index' for "data":String):
+    3: <div id="mapPlaceholder"></div>
+    4: 
+    5: 
+    6: 	<% @response["data"].each_with_index do |x, i| %>
+    7: 	<% @img=@response['data'][i]['images']['low_resolution']['url'] %>
+    8: 	<% @rlat=@response['data'][i]['location']['latitude'] %>
+    9: 	<% @rlong=@response['data'][i]['location']['longitude'] %>
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb__3537170466293180544_70348066659640'
+
+
+I, [2015-02-10T20:40:40.024561 #795]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 20:40:40 -0800
+I, [2015-02-10T20:40:40.037851 #795]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T20:40:41.077748 #795]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (69.2ms)
+I, [2015-02-10T20:40:41.077945 #795]  INFO -- : Completed 500 Internal Server Error in 1040ms
+F, [2015-02-10T20:40:41.080109 #795] FATAL -- : 
+ActionView::Template::Error (undefined method `each_with_index' for "data":String):
+    3: <div id="mapPlaceholder"></div>
+    4: 
+    5: 
+    6: 	<% @response["data"].each_with_index do |x, i| %>
+    7: 	<% @img=@response['data'][i]['images']['low_resolution']['url'] %>
+    8: 	<% @rlat=@response['data'][i]['location']['latitude'] %>
+    9: 	<% @rlong=@response['data'][i]['location']['longitude'] %>
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb__3537170466293180544_70348066659640'
+
+
+I, [2015-02-10T20:40:43.317562 #795]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 20:40:43 -0800
+I, [2015-02-10T20:40:43.319709 #795]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T20:40:52.184159 #795]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (75.6ms)
+I, [2015-02-10T20:40:52.210173 #795]  INFO -- : Completed 500 Internal Server Error in 8890ms
+F, [2015-02-10T20:40:52.213542 #795] FATAL -- : 
+ActionView::Template::Error (undefined method `each_with_index' for "data":String):
+    3: <div id="mapPlaceholder"></div>
+    4: 
+    5: 
+    6: 	<% @response["data"].each_with_index do |x, i| %>
+    7: 	<% @img=@response['data'][i]['images']['low_resolution']['url'] %>
+    8: 	<% @rlat=@response['data'][i]['location']['latitude'] %>
+    9: 	<% @rlong=@response['data'][i]['location']['longitude'] %>
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb__3537170466293180544_70348066659640'
+
+
+I, [2015-02-10T20:42:30.248688 #850]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 20:42:30 -0800
+I, [2015-02-10T20:42:30.289474 #850]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T20:42:31.098498 #850]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (2.7ms)
+I, [2015-02-10T20:42:31.098802 #850]  INFO -- : Completed 500 Internal Server Error in 809ms
+F, [2015-02-10T20:42:31.101540 #850] FATAL -- : 
+ActionView::Template::Error (undefined method `each_with_index' for "data":String):
+    3: <div id="mapPlaceholder"></div>
+    4: 
+    5: 
+    6: 	<% @response["data"].each_with_index do |x, i| %>
+    7: 	<% @img=@response['data'][i]['images']['low_resolution']['url'] %>
+    8: 	<% @rlat=@response['data'][i]['location']['latitude'] %>
+    9: 	<% @rlong=@response['data'][i]['location']['longitude'] %>
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb__1235114673639892697_70177599372820'
+
+
+I, [2015-02-10T20:43:30.319068 #850]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 20:43:30 -0800
+I, [2015-02-10T20:43:30.382866 #850]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T20:43:38.095165 #850]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (1.1ms)
+I, [2015-02-10T20:43:38.095379 #850]  INFO -- : Completed 500 Internal Server Error in 7712ms
+F, [2015-02-10T20:43:38.097146 #850] FATAL -- : 
+ActionView::Template::Error (undefined method `each_with_index' for "data":String):
+    3: <div id="mapPlaceholder"></div>
+    4: 
+    5: 
+    6: 	<% @response["data"].each_with_index do |x, i| %>
+    7: 
+    8: 	<%= x %>
+    9: 	<% @img=@response['data'][i]['images']['low_resolution']['url'] %>
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb__1235114673639892697_70177599372820'
+
+
+I, [2015-02-10T20:44:24.913125 #850]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 20:44:24 -0800
+I, [2015-02-10T20:44:24.915177 #850]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T20:44:27.011500 #850]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (1.5ms)
+I, [2015-02-10T20:44:27.011691 #850]  INFO -- : Completed 500 Internal Server Error in 2096ms
+F, [2015-02-10T20:44:27.013277 #850] FATAL -- : 
+ActionView::Template::Error (undefined method `each_with_index' for "data":String):
+    3: <div id="mapPlaceholder"></div>
+    4: 
+    5: 
+    6: 	<% @response["data"].each_with_index do |x, i| %>
+    7: 
+    8: 	<%= x %>
+    9: 	<% @img=@response['data'][i]['images']['low_resolution']['url'] %>
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb__1235114673639892697_70177599372820'
+
+
+I, [2015-02-10T20:45:32.716545 #850]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 20:45:32 -0800
+I, [2015-02-10T20:45:32.718028 #850]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T20:45:34.491760 #850]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (1.2ms)
+I, [2015-02-10T20:45:34.491939 #850]  INFO -- : Completed 500 Internal Server Error in 1774ms
+F, [2015-02-10T20:45:34.549792 #850] FATAL -- : 
+ActionView::Template::Error (undefined method `each_with_index' for "data":String):
+    3: <div id="mapPlaceholder"></div>
+    4: 
+    5: 
+    6: 	<% @response["data"].each_with_index do |x, i| %>
+    7: 
+    8: 	<%= x %>
+    9: 
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb__1235114673639892697_70177599372820'
+
+
+I, [2015-02-10T20:46:04.638950 #850]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 20:46:04 -0800
+I, [2015-02-10T20:46:04.641266 #850]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T20:46:10.377050 #850]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (1.4ms)
+I, [2015-02-10T20:46:10.377273 #850]  INFO -- : Completed 500 Internal Server Error in 5736ms
+F, [2015-02-10T20:46:10.379438 #850] FATAL -- : 
+ActionView::Template::Error (undefined method `each_with_index' for "data":String):
+    3: <div id="mapPlaceholder"></div>
+    4: 
+    5: 
+    6: 	<% @response["data"].each_with_index do |x, i| %>
+    7: 
+    8: 	<%= x %>
+    9: 	<% @img=@response['data'][i]['images']['low_resolution']['url'] %>
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb__1235114673639892697_70177599372820'
+
+
+I, [2015-02-10T20:46:27.354637 #850]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 20:46:27 -0800
+I, [2015-02-10T20:46:27.356061 #850]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T20:46:29.414311 #850]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (1.0ms)
+I, [2015-02-10T20:46:29.414472 #850]  INFO -- : Completed 500 Internal Server Error in 2058ms
+F, [2015-02-10T20:46:29.416092 #850] FATAL -- : 
+ActionView::Template::Error (undefined method `each_with_index' for "data":String):
+    3: <div id="mapPlaceholder"></div>
+    4: 
+    5: 
+    6: 	<% @response["data"].each_with_index do |x, i| %>
+    7: 
+    8: 	<%= x %>
+    9: 	<% @img=@response['data'][i]['images']['low_resolution']['url'] %>
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb__1235114673639892697_70177599372820'
+
+
+I, [2015-02-10T20:46:44.954356 #850]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 20:46:44 -0800
+I, [2015-02-10T20:46:44.955775 #850]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T20:46:47.263980 #850]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (1.2ms)
+I, [2015-02-10T20:46:47.264241 #850]  INFO -- : Completed 500 Internal Server Error in 2308ms
+F, [2015-02-10T20:46:47.266227 #850] FATAL -- : 
+ActionView::Template::Error (undefined method `each_with_index' for "data":String):
+    3: <div id="mapPlaceholder"></div>
+    4: 
+    5: 
+    6: 
+    7: 
+    8: 
+    9: </div>
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb__1235114673639892697_70177599372820'
+
+
+I, [2015-02-10T20:46:59.699822 #850]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 20:46:59 -0800
+I, [2015-02-10T20:46:59.701972 #850]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T20:47:04.838521 #850]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (1.0ms)
+I, [2015-02-10T20:47:04.838679 #850]  INFO -- : Completed 500 Internal Server Error in 5136ms
+F, [2015-02-10T20:47:04.840322 #850] FATAL -- : 
+ActionView::Template::Error (undefined method `each_with_index' for "data":String):
+    3: <div id="mapPlaceholder"></div>
+    4: 
+    5: 
+    6: 	<% @response["data"].each_with_index do |x, i| %>
+    7: 
+    8: 	<%= x %>
+    9: 	<% @img=@response['data'][i]['images']['low_resolution']['url'] %>
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb__1235114673639892697_70177599372820'
+
+
+I, [2015-02-10T20:49:51.927934 #1018]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 20:49:51 -0800
+I, [2015-02-10T20:49:52.001850 #1018]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T20:49:54.895998 #1018]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (2.7ms)
+I, [2015-02-10T20:49:54.896305 #1018]  INFO -- : Completed 500 Internal Server Error in 2894ms
+F, [2015-02-10T20:49:54.899066 #1018] FATAL -- : 
+ActionView::Template::Error (undefined method `each_with_index' for "data":String):
+    3: <div id="mapPlaceholder"></div>
+    4: 
+    5: 
+    6: 	<% @response["data"].each_with_index do |x, i| %>
+    7: 
+    8: 	<%= x %>
+    9: 	<% @img=@response['data'][i]['images']['low_resolution']['url'] %>
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb__3614836595135038287_70103125245440'
+
+
+I, [2015-02-10T20:50:57.834425 #1018]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 20:50:57 -0800
+I, [2015-02-10T20:50:57.836008 #1018]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T20:50:59.991748 #1018]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (1.1ms)
+I, [2015-02-10T20:50:59.991917 #1018]  INFO -- : Completed 500 Internal Server Error in 2156ms
+F, [2015-02-10T20:50:59.993530 #1018] FATAL -- : 
+ActionView::Template::Error (undefined method `each_with_index' for "data":String):
+    3: <div id="mapPlaceholder"></div>
+    4: 
+    5: 
+    6: 	
+    7: 
+    8: 
+    9: 
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb__3614836595135038287_70103125245440'
+
+
+I, [2015-02-10T20:51:28.630434 #1018]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 20:51:28 -0800
+I, [2015-02-10T20:51:28.631953 #1018]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T20:51:30.454576 #1018]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (1.0ms)
+I, [2015-02-10T20:51:30.454792 #1018]  INFO -- : Completed 500 Internal Server Error in 1823ms
+F, [2015-02-10T20:51:30.456629 #1018] FATAL -- : 
+ActionView::Template::Error (undefined method `each_with_index' for "data":String):
+    3: <div id="mapPlaceholder"></div>
+    4: 
+    5: 
+    6: 	
+    7: 
+    8: 
+    9: 
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb__3614836595135038287_70103125245440'
+
+
+I, [2015-02-10T20:51:52.482379 #1018]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 20:51:52 -0800
+I, [2015-02-10T20:51:52.483742 #1018]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T20:51:54.006998 #1018]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (0.9ms)
+I, [2015-02-10T20:51:54.007165 #1018]  INFO -- : Completed 500 Internal Server Error in 1523ms
+F, [2015-02-10T20:51:54.008846 #1018] FATAL -- : 
+ActionView::Template::Error (undefined method `each_with_index' for "data":String):
+    3: <div id="mapPlaceholder"></div>
+    4: 
+    5: 
+    6: 	
+    7: 
+    8: 
+    9: 
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb__3614836595135038287_70103125245440'
+
+
+I, [2015-02-10T20:53:15.862191 #1072]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 20:53:15 -0800
+I, [2015-02-10T20:53:15.870624 #1072]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T20:53:33.480433 #1072]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (1.4ms)
+I, [2015-02-10T20:53:33.483561 #1072]  INFO -- : Completed 200 OK in 17613ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+I, [2015-02-10T20:53:33.485066 #1072]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 20:53:33 -0800
+I, [2015-02-10T20:53:33.487167 #1072]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T20:53:36.310866 #1072]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (0.1ms)
+I, [2015-02-10T20:53:36.311708 #1072]  INFO -- : Completed 200 OK in 2824ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+I, [2015-02-10T20:54:01.486630 #1072]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 20:54:01 -0800
+I, [2015-02-10T20:54:01.488046 #1072]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T20:54:03.130109 #1072]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (0.1ms)
+I, [2015-02-10T20:54:03.131163 #1072]  INFO -- : Completed 200 OK in 1643ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+I, [2015-02-10T20:54:48.486886 #1072]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 20:54:48 -0800
+I, [2015-02-10T20:54:48.488406 #1072]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T20:54:51.121953 #1072]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (0.1ms)
+I, [2015-02-10T20:54:51.123224 #1072]  INFO -- : Completed 200 OK in 2635ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+I, [2015-02-10T20:56:00.245460 #1072]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 20:56:00 -0800
+I, [2015-02-10T20:56:00.246369 #1072]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T20:56:01.657316 #1072]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (0.1ms)
+I, [2015-02-10T20:56:01.658224 #1072]  INFO -- : Completed 200 OK in 1412ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+I, [2015-02-10T20:56:11.085800 #1072]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 20:56:11 -0800
+I, [2015-02-10T20:56:11.086686 #1072]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T20:56:14.164254 #1072]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (0.1ms)
+I, [2015-02-10T20:56:14.165107 #1072]  INFO -- : Completed 200 OK in 3078ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+I, [2015-02-10T20:57:10.677894 #1114]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 20:57:10 -0800
+I, [2015-02-10T20:57:10.687034 #1114]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T20:57:12.563409 #1114]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (1.6ms)
+I, [2015-02-10T20:57:12.563633 #1114]  INFO -- : Completed 500 Internal Server Error in 1876ms
+F, [2015-02-10T20:57:12.565413 #1114] FATAL -- : 
+ActionView::Template::Error (undefined method `each_with_index' for "data":String):
+    3: <div id="mapPlaceholder"></div>
+    4: 
+    5: 
+    6: 	<% @response["data"].each_with_index do |x, i| %>
+    7: 
+    8: 	<%= x %>
+    9: 	<% @img=@response['data'][i]['images']['low_resolution']['url'] %>
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb___462920276576061361_70214003431980'
+
+
+I, [2015-02-10T20:57:22.866791 #1114]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 20:57:22 -0800
+I, [2015-02-10T20:57:22.868405 #1114]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T20:57:25.307746 #1114]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (1.0ms)
+I, [2015-02-10T20:57:25.307960 #1114]  INFO -- : Completed 500 Internal Server Error in 2439ms
+F, [2015-02-10T20:57:25.309788 #1114] FATAL -- : 
+ActionView::Template::Error (undefined method `each_with_index' for "data":String):
+    3: <div id="mapPlaceholder"></div>
+    4: 
+    5: 
+    6: 	<% @response["data"].each_with_index do |x, i| %>
+    7: 
+    8: 	<%= x %>
+    9: 	<% @img=@response['data'][i]['images']['low_resolution']['url'] %>
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb___462920276576061361_70214003431980'
+
+
+I, [2015-02-10T20:57:52.835887 #1114]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 20:57:52 -0800
+I, [2015-02-10T20:57:52.838057 #1114]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T20:57:54.263968 #1114]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (1.1ms)
+I, [2015-02-10T20:57:54.264135 #1114]  INFO -- : Completed 500 Internal Server Error in 1426ms
+F, [2015-02-10T20:57:54.265795 #1114] FATAL -- : 
+ActionView::Template::Error (undefined method `each_with_index' for "data":String):
+    3: <div id="mapPlaceholder"></div>
+    4: 
+    5: 
+    6: 	<% @response["data"].each_with_index do |x, i| %>
+    7: 
+    8: 	<%= x %>
+    9: 	<% @img=@response['data'][i]['images']['low_resolution']['url'] %>
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb___462920276576061361_70214003431980'
+
+
+I, [2015-02-10T20:58:11.815587 #1136]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 20:58:11 -0800
+I, [2015-02-10T20:58:11.822015 #1136]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T20:58:12.881102 #1136]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (1.7ms)
+I, [2015-02-10T20:58:12.881340 #1136]  INFO -- : Completed 500 Internal Server Error in 1059ms
+F, [2015-02-10T20:58:12.883143 #1136] FATAL -- : 
+ActionView::Template::Error (undefined method `each_with_index' for "data":String):
+    3: <div id="mapPlaceholder"></div>
+    4: 
+    5: 
+    6: 	<% @response["data"].each_with_index do |x, i| %>
+    7: 
+    8: 	<%= x %>
+    9: 	<% @img=@response['data'][i]['images']['low_resolution']['url'] %>
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb___4091394220554148489_70320942148780'
+
+
+I, [2015-02-10T21:00:45.832215 #1136]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 21:00:45 -0800
+I, [2015-02-10T21:00:45.833763 #1136]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T21:00:52.811621 #1136]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (1.0ms)
+I, [2015-02-10T21:00:52.811787 #1136]  INFO -- : Completed 500 Internal Server Error in 6978ms
+F, [2015-02-10T21:00:52.813496 #1136] FATAL -- : 
+ActionView::Template::Error (undefined method `each_with_index' for "data":String):
+    3: <div id="mapPlaceholder"></div>
+    4: 
+    5: 
+    6: 	<% @response["data"].each_with_index do |x, i| %>
+    7: 
+    8: 	<%= x %>
+    9: 	<% @img=@response['data'][i]['images']['low_resolution']['url'] %>
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb___4091394220554148489_70320942148780'
+
+
+I, [2015-02-10T21:01:28.264324 #1136]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 21:01:28 -0800
+I, [2015-02-10T21:01:28.265754 #1136]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T21:01:29.503881 #1136]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (0.9ms)
+I, [2015-02-10T21:01:29.504039 #1136]  INFO -- : Completed 500 Internal Server Error in 1238ms
+F, [2015-02-10T21:01:29.505716 #1136] FATAL -- : 
+ActionView::Template::Error (undefined method `each_with_index' for "data":String):
+    3: <div id="mapPlaceholder"></div>
+    4: 
+    5: 
+    6: 	<% @response["data"].each_with_index do |x, i| %>
+    7: 
+    8: 	<%= x %>
+    9: 	<% @img=@response['data'][i]['images']['low_resolution']['url'] %>
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb___4091394220554148489_70320942148780'
+
+
+I, [2015-02-10T21:02:03.711679 #1136]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 21:02:03 -0800
+I, [2015-02-10T21:02:03.713649 #1136]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T21:02:05.322651 #1136]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (1.1ms)
+I, [2015-02-10T21:02:05.322876 #1136]  INFO -- : Completed 500 Internal Server Error in 1609ms
+F, [2015-02-10T21:02:05.324612 #1136] FATAL -- : 
+ActionView::Template::Error (undefined method `each_with_index' for "data":String):
+    3: <div id="mapPlaceholder"></div>
+    4: 
+    5: 
+    6: 	<% @response.each_with_index do |x, i| %>
+    7: 
+    8: 	<%= x %>
+    9: 	
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb___4091394220554148489_70320942148780'
+
+
+I, [2015-02-10T21:02:16.807270 #1160]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 21:02:16 -0800
+I, [2015-02-10T21:02:16.815982 #1160]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T21:02:18.233527 #1160]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (2.8ms)
+I, [2015-02-10T21:02:18.233764 #1160]  INFO -- : Completed 500 Internal Server Error in 1418ms
+F, [2015-02-10T21:02:18.235781 #1160] FATAL -- : 
+ActionView::Template::Error (undefined method `each_with_index' for #<String:0x007fe6973ada10>):
+    3: <div id="mapPlaceholder"></div>
+    4: 
+    5: 
+    6: 	<% @response.each_with_index do |x, i| %>
+    7: 
+    8: 	<%= x %>
+    9: 	
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb__4375109883275321104_70314178226460'
+
+
+I, [2015-02-10T21:02:18.237013 #1160]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 21:02:18 -0800
+I, [2015-02-10T21:02:18.238599 #1160]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T21:02:22.586160 #1160]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (2.2ms)
+I, [2015-02-10T21:02:22.586377 #1160]  INFO -- : Completed 500 Internal Server Error in 4348ms
+F, [2015-02-10T21:02:22.588113 #1160] FATAL -- : 
+ActionView::Template::Error (undefined method `each_with_index' for #<String:0x007fe6971f57b8>):
+    3: <div id="mapPlaceholder"></div>
+    4: 
+    5: 
+    6: 	<% @response.each_with_index do |x, i| %>
+    7: 
+    8: 	<%= x %>
+    9: 	
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb__4375109883275321104_70314178226460'
+
+
+I, [2015-02-10T21:05:56.349875 #1160]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 21:05:56 -0800
+I, [2015-02-10T21:05:56.352382 #1160]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T21:06:01.251254 #1160]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (2.3ms)
+I, [2015-02-10T21:06:01.251429 #1160]  INFO -- : Completed 500 Internal Server Error in 4899ms
+F, [2015-02-10T21:06:01.253022 #1160] FATAL -- : 
+ActionView::Template::Error (undefined method `each_with_index' for #<String:0x007fe6976067f8>):
+    3: <div id="mapPlaceholder"></div>
+    4: 
+    5: 
+    6: 	<% @response["data"].each_with_index do |x, i| %>
+    7: 
+    8: 	<%= x %>
+    9: 	<% @img=@response['data'][i]['images']['low_resolution']['url'] %>
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb__4375109883275321104_70314178226460'
+
+
+I, [2015-02-10T21:06:26.248455 #1160]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 21:06:26 -0800
+I, [2015-02-10T21:06:26.249854 #1160]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T21:06:29.778656 #1160]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (2.2ms)
+I, [2015-02-10T21:06:29.778883 #1160]  INFO -- : Completed 500 Internal Server Error in 3529ms
+F, [2015-02-10T21:06:29.780725 #1160] FATAL -- : 
+ActionView::Template::Error (undefined method `each_with_index' for #<String:0x007fe6944422f8>):
+    3: <div id="mapPlaceholder"></div>
+    4: 
+    5: 
+    6: 	<% @response["data"].each_with_index do |x, i| %>
+    7: 
+    8: 	<%= x %>
+    9: 	<% @img=@response['data'][i]['images']['low_resolution']['url'] %>
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb__4375109883275321104_70314178226460'
+
+
+I, [2015-02-10T21:06:31.314853 #1160]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 21:06:31 -0800
+I, [2015-02-10T21:06:31.316952 #1160]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T21:06:34.112351 #1160]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (2.1ms)
+I, [2015-02-10T21:06:34.112513 #1160]  INFO -- : Completed 500 Internal Server Error in 2795ms
+F, [2015-02-10T21:06:34.114111 #1160] FATAL -- : 
+ActionView::Template::Error (undefined method `each_with_index' for #<String:0x007fe6972f4ad8>):
+    3: <div id="mapPlaceholder"></div>
+    4: 
+    5: 
+    6: 	<% @response["data"].each_with_index do |x, i| %>
+    7: 
+    8: 	<%= x %>
+    9: 	<% @img=@response['data'][i]['images']['low_resolution']['url'] %>
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb__4375109883275321104_70314178226460'
+
+
+I, [2015-02-10T21:06:35.371765 #1160]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 21:06:35 -0800
+I, [2015-02-10T21:06:35.373341 #1160]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T21:06:36.491657 #1160]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (2.2ms)
+I, [2015-02-10T21:06:36.491865 #1160]  INFO -- : Completed 500 Internal Server Error in 1118ms
+F, [2015-02-10T21:06:36.493551 #1160] FATAL -- : 
+ActionView::Template::Error (undefined method `each_with_index' for #<String:0x007fe6976ac3b0>):
+    3: <div id="mapPlaceholder"></div>
+    4: 
+    5: 
+    6: 	<% @response["data"].each_with_index do |x, i| %>
+    7: 
+    8: 	<%= x %>
+    9: 	<% @img=@response['data'][i]['images']['low_resolution']['url'] %>
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb__4375109883275321104_70314178226460'
+
+
+I, [2015-02-10T21:06:37.649915 #1160]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 21:06:37 -0800
+I, [2015-02-10T21:06:37.651274 #1160]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T21:06:41.988172 #1160]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (2.2ms)
+I, [2015-02-10T21:06:41.988398 #1160]  INFO -- : Completed 500 Internal Server Error in 4337ms
+F, [2015-02-10T21:06:41.990163 #1160] FATAL -- : 
+ActionView::Template::Error (undefined method `each_with_index' for #<String:0x007fe694753050>):
+    3: <div id="mapPlaceholder"></div>
+    4: 
+    5: 
+    6: 	<% @response["data"].each_with_index do |x, i| %>
+    7: 
+    8: 	<%= x %>
+    9: 	<% @img=@response['data'][i]['images']['low_resolution']['url'] %>
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb__4375109883275321104_70314178226460'
+
+
+I, [2015-02-10T21:08:28.541336 #1160]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 21:08:28 -0800
+I, [2015-02-10T21:08:28.543515 #1160]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T21:08:31.426715 #1160]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (2.3ms)
+I, [2015-02-10T21:08:31.426892 #1160]  INFO -- : Completed 500 Internal Server Error in 2883ms
+F, [2015-02-10T21:08:31.428728 #1160] FATAL -- : 
+ActionView::Template::Error (undefined method `each_with_index' for #<String:0x007fe697476208>):
+    3: <div id="mapPlaceholder"></div>
+    4: 
+    5: 
+    6: 	<% @response["data"].each_with_index do |x, i| %>
+    7: 
+    8: 	<%= x %>
+    9: 	<% @img=@response['data'][i]['images']['low_resolution']['url'] %>
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb__4375109883275321104_70314178226460'
+
+
+I, [2015-02-10T21:10:13.434571 #1160]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 21:10:13 -0800
+I, [2015-02-10T21:10:13.436108 #1160]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T21:10:15.560195 #1160]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (2.2ms)
+I, [2015-02-10T21:10:15.560360 #1160]  INFO -- : Completed 500 Internal Server Error in 2124ms
+F, [2015-02-10T21:10:15.631719 #1160] FATAL -- : 
+ActionView::Template::Error (undefined method `each_with_index' for #<String:0x007fe698019fb0>):
+    3: <div id="mapPlaceholder"></div>
+    4: 
+    5: 
+    6: 	<% @response["data"].each_with_index do |x, i| %>
+    7: 
+    8: 	<%= x %>
+    9: 	<% @img=@response['data'][i]['images']['low_resolution']['url'] %>
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb__4375109883275321104_70314178226460'
+
+
+I, [2015-02-10T21:11:00.396279 #1160]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 21:11:00 -0800
+I, [2015-02-10T21:11:00.398726 #1160]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T21:11:01.603768 #1160]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (2.2ms)
+I, [2015-02-10T21:11:01.604004 #1160]  INFO -- : Completed 500 Internal Server Error in 1205ms
+F, [2015-02-10T21:11:01.605731 #1160] FATAL -- : 
+ActionView::Template::Error (undefined method `each_with_index' for #<String:0x007fe69726c598>):
+    3: <div id="mapPlaceholder"></div>
+    4: 
+    5: 
+    6: 	<% @response["data"].each_with_index do |x, i| %>
+    7: 
+    8: 	<%= x %>
+    9: 	<% @img=@response['data'][i]['images']['low_resolution']['url'] %>
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb__4375109883275321104_70314178226460'
+
+
+I, [2015-02-10T21:12:18.165821 #1160]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 21:12:18 -0800
+I, [2015-02-10T21:12:18.167548 #1160]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T21:12:19.536804 #1160]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (2.1ms)
+I, [2015-02-10T21:12:19.536966 #1160]  INFO -- : Completed 500 Internal Server Error in 1369ms
+F, [2015-02-10T21:12:19.538534 #1160] FATAL -- : 
+ActionView::Template::Error (undefined method `each_with_index' for #<String:0x007fe69764eb20>):
+    3: <div id="mapPlaceholder"></div>
+    4: 
+    5: 
+    6: 	<% @response["data"].each_with_index do |x, i| %>
+    7: 
+    8: 	<%= x %>
+    9: 	<% @img=@response['data'][i]['images']['low_resolution']['url'] %>
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb__4375109883275321104_70314178226460'
+
+
+I, [2015-02-10T21:12:36.047332 #1208]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 21:12:36 -0800
+I, [2015-02-10T21:12:36.054194 #1208]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T21:13:13.762609 #1208]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (2.0ms)
+I, [2015-02-10T21:13:13.762876 #1208]  INFO -- : Completed 500 Internal Server Error in 37708ms
+F, [2015-02-10T21:13:13.764987 #1208] FATAL -- : 
+ActionView::Template::Error (undefined method `each_with_index' for "data":String):
+    3: <div id="mapPlaceholder"></div>
+    4: 
+    5: 
+    6: 	<% @response["data"].each_with_index do |x, i| %>
+    7: 
+    8: 	<%= x %>
+    9: 	<% @img=@response['data'][i]['images']['low_resolution']['url'] %>
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb___4578437428992927942_70340498444540'
+
+
+I, [2015-02-10T21:13:26.706805 #1208]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 21:13:26 -0800
+I, [2015-02-10T21:13:26.708940 #1208]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T21:13:27.327310 #1208]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (0.9ms)
+I, [2015-02-10T21:13:27.327467 #1208]  INFO -- : Completed 500 Internal Server Error in 618ms
+F, [2015-02-10T21:13:27.329226 #1208] FATAL -- : 
+ActionView::Template::Error (undefined method `each_with_index' for "data":String):
+    3: <div id="mapPlaceholder"></div>
+    4: 
+    5: 
+    6: 	<% @response["data"].each_with_index do |x, i| %>
+    7: 
+    8: 	<%= x %>
+    9: 	<% @img=@response['data'][i]['images']['low_resolution']['url'] %>
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb___4578437428992927942_70340498444540'
+
+
+I, [2015-02-10T21:13:28.618660 #1208]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 21:13:28 -0800
+I, [2015-02-10T21:13:28.620159 #1208]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T21:13:30.183461 #1208]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (1.0ms)
+I, [2015-02-10T21:13:30.183651 #1208]  INFO -- : Completed 500 Internal Server Error in 1563ms
+F, [2015-02-10T21:13:30.185358 #1208] FATAL -- : 
+ActionView::Template::Error (undefined method `each_with_index' for "data":String):
+    3: <div id="mapPlaceholder"></div>
+    4: 
+    5: 
+    6: 	<% @response["data"].each_with_index do |x, i| %>
+    7: 
+    8: 	<%= x %>
+    9: 	<% @img=@response['data'][i]['images']['low_resolution']['url'] %>
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb___4578437428992927942_70340498444540'
+
+
+I, [2015-02-10T21:13:57.163093 #1234]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 21:13:57 -0800
+I, [2015-02-10T21:13:57.171533 #1234]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T21:14:00.696991 #1234]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (1.9ms)
+I, [2015-02-10T21:14:00.697246 #1234]  INFO -- : Completed 500 Internal Server Error in 3525ms
+F, [2015-02-10T21:14:00.699140 #1234] FATAL -- : 
+ActionView::Template::Error (undefined method `each_with_index' for "data":String):
+    3: <div id="mapPlaceholder"></div>
+    4: 
+    5: 
+    6: 	<% @response["data"].each_with_index do |x, i| %>
+    7: 
+    8: 	<%= x %>
+    9: 	<% @img=@response['data'][i]['images']['low_resolution']['url'] %>
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb___2934526826490429042_70363045176220'
+
+
+I, [2015-02-10T21:15:06.803595 #1254]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 21:15:06 -0800
+I, [2015-02-10T21:15:06.811416 #1254]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T21:15:12.104651 #1254]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (1.7ms)
+I, [2015-02-10T21:15:12.104885 #1254]  INFO -- : Completed 500 Internal Server Error in 5293ms
+F, [2015-02-10T21:15:12.106769 #1254] FATAL -- : 
+ActionView::Template::Error (undefined method `each_with_index' for "data":String):
+    3: <div id="mapPlaceholder"></div>
+    4: 
+    5: 
+    6: 	<% @response["data"].each_with_index do |x, i| %>
+    7: 
+    8: 	<%= x %>
+    9: 	<% @img=@response['data'][i]['images']['low_resolution']['url'] %>
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb__3185515447574226594_70336576377680'
+
+
+I, [2015-02-10T21:15:25.920974 #1254]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 21:15:25 -0800
+I, [2015-02-10T21:15:25.923033 #1254]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T21:15:27.748078 #1254]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (1.0ms)
+I, [2015-02-10T21:15:27.748295 #1254]  INFO -- : Completed 500 Internal Server Error in 1825ms
+F, [2015-02-10T21:15:27.750256 #1254] FATAL -- : 
+ActionView::Template::Error (undefined method `each_with_index' for "data":String):
+    3: <div id="mapPlaceholder"></div>
+    4: 
+    5: 
+    6: 	<% @response["data"].each_with_index do |x, i| %>
+    7: 
+    8: 	<%= x %>
+    9: 	<% @img=@response['data'][i]['images']['low_resolution']['url'] %>
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb__3185515447574226594_70336576377680'
+
+
+I, [2015-02-10T21:15:45.215217 #1278]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 21:15:45 -0800
+I, [2015-02-10T21:15:45.222222 #1278]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T21:15:49.156262 #1278]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (1.9ms)
+I, [2015-02-10T21:15:49.156539 #1278]  INFO -- : Completed 500 Internal Server Error in 3934ms
+F, [2015-02-10T21:15:49.158602 #1278] FATAL -- : 
+ActionView::Template::Error (undefined method `each_with_index' for "data":String):
+    3: <div id="mapPlaceholder"></div>
+    4: 
+    5: 
+    6: 	<% @response["data"].each_with_index do |x, i| %>
+    7: 
+    8: 	<%= x %>
+    9: 	<% @img=@response['data'][i]['images']['low_resolution']['url'] %>
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb__204382278050210545_70170303398340'
+
+
+I, [2015-02-10T21:18:25.532066 #1322]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 21:18:25 -0800
+I, [2015-02-10T21:18:25.540321 #1322]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T21:18:26.797152 #1322]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (0.9ms)
+I, [2015-02-10T21:18:26.797386 #1322]  INFO -- : Completed 500 Internal Server Error in 1257ms
+F, [2015-02-10T21:18:26.799516 #1322] FATAL -- : 
+SyntaxError (/Users/SShaw/Desktop/map-o-rama/map-o-rama/app/views/welcome/index.html.erb:20: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/welcome/index.html.erb:20: syntax error, unexpected keyword_ensure, expecting end-of-input
+
+
+I, [2015-02-10T21:18:35.559094 #1322]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 21:18:35 -0800
+I, [2015-02-10T21:18:35.561206 #1322]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T21:18:37.342126 #1322]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (0.6ms)
+I, [2015-02-10T21:18:37.342351 #1322]  INFO -- : Completed 500 Internal Server Error in 1781ms
+F, [2015-02-10T21:18:37.344372 #1322] FATAL -- : 
+SyntaxError (/Users/SShaw/Desktop/map-o-rama/map-o-rama/app/views/welcome/index.html.erb:20: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/welcome/index.html.erb:20: syntax error, unexpected keyword_ensure, expecting end-of-input
+
+
+I, [2015-02-10T21:19:04.420603 #1354]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 21:19:04 -0800
+I, [2015-02-10T21:19:04.427981 #1354]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T21:19:05.123697 #1354]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (2.0ms)
+I, [2015-02-10T21:19:05.125541 #1354]  INFO -- : Completed 200 OK in 697ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+I, [2015-02-10T21:19:34.228664 #1373]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 21:19:34 -0800
+I, [2015-02-10T21:19:34.234997 #1373]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T21:19:35.262538 #1373]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (1.6ms)
+I, [2015-02-10T21:19:35.262763 #1373]  INFO -- : Completed 500 Internal Server Error in 1028ms
+F, [2015-02-10T21:19:35.264502 #1373] FATAL -- : 
+ActionView::Template::Error (undefined method `each_with_index' for "data":String):
+    3: 
+    4: 
+    5: 
+    6: 	<% @response["data"].each_with_index do |x, i| %>
+    7: 
+    8: 	<%= x %>
+    9: 	<% @img=@response['data'][i]['images']['low_resolution']['url'] %>
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb___2904810861787953892_70191690221720'
+
+
+I, [2015-02-10T21:19:57.895639 #1373]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 21:19:57 -0800
+I, [2015-02-10T21:19:57.897684 #1373]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T21:19:59.596562 #1373]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (1.1ms)
+I, [2015-02-10T21:19:59.596775 #1373]  INFO -- : Completed 500 Internal Server Error in 1699ms
+F, [2015-02-10T21:19:59.598593 #1373] FATAL -- : 
+ActionView::Template::Error (undefined method `each_with_index' for "data":String):
+    3: 
+    4: 
+    5: 
+    6: 	<% @response.each_with_index do |x, i| %>
+    7: 
+    8: 	<%= x %>
+    9: 	<% @img=@response['data'][i]['images']['low_resolution']['url'] %>
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb___2904810861787953892_70191690221720'
+
+
+I, [2015-02-10T21:20:15.289025 #1373]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 21:20:15 -0800
+I, [2015-02-10T21:20:15.291078 #1373]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T21:20:15.806780 #1373]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (1.1ms)
+I, [2015-02-10T21:20:15.806952 #1373]  INFO -- : Completed 500 Internal Server Error in 516ms
+F, [2015-02-10T21:20:15.808663 #1373] FATAL -- : 
+ActionView::Template::Error (undefined method `each_with_index' for "data":String):
+    3: 
+    4: <%= @response >
+    5: 
+    6: 	<% @response.each_with_index do |x, i| %>
+    7: 
+    8: 	<%= x %>
+    9: 	<% @img=@response['data'][i]['images']['low_resolution']['url'] %>
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb___2904810861787953892_70191690221720'
+
+
+I, [2015-02-10T21:20:23.232165 #1373]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 21:20:23 -0800
+I, [2015-02-10T21:20:23.233251 #1373]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T21:20:27.141599 #1373]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (1.1ms)
+I, [2015-02-10T21:20:27.141760 #1373]  INFO -- : Completed 500 Internal Server Error in 3908ms
+F, [2015-02-10T21:20:27.143342 #1373] FATAL -- : 
+ActionView::Template::Error (undefined method `each_with_index' for "data":String):
+    3: 
+    4: <%= @response %>
+    5: 
+    6: 	<% @response.each_with_index do |x, i| %>
+    7: 
+    8: 	<%= x %>
+    9: 	<% @img=@response['data'][i]['images']['low_resolution']['url'] %>
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb___2904810861787953892_70191690221720'
+
+
+I, [2015-02-10T21:20:39.936163 #1394]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 21:20:39 -0800
+I, [2015-02-10T21:20:39.943000 #1394]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T21:20:41.356056 #1394]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (6.3ms)
+I, [2015-02-10T21:20:41.356308 #1394]  INFO -- : Completed 500 Internal Server Error in 1413ms
+F, [2015-02-10T21:20:41.358175 #1394] FATAL -- : 
+ActionView::Template::Error (undefined method `each_with_index' for #<String:0x007fae1479df78>):
+    3: 
+    4: <%= @response %>
+    5: 
+    6: 	<% @response.each_with_index do |x, i| %>
+    7: 
+    8: 	<%= x %>
+    9: 	<% @img=@response['data'][i]['images']['low_resolution']['url'] %>
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb___1016603785162749989_70192822299700'
+
+
+I, [2015-02-10T21:20:53.362780 #1394]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 21:20:53 -0800
+I, [2015-02-10T21:20:53.364919 #1394]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T21:20:54.613078 #1394]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (5.3ms)
+I, [2015-02-10T21:20:54.613323 #1394]  INFO -- : Completed 500 Internal Server Error in 1248ms
+F, [2015-02-10T21:20:54.615106 #1394] FATAL -- : 
+ActionView::Template::Error (undefined method `each_with_index' for #<String:0x007fae1312d518>):
+    3: 
+    4: <%= @response %>
+    5: 
+    6: 	<% @response.each_with_index do |x, i| %>
+    7: 
+    8: 	<%= x %>
+    9: 	<% @img=@response['data'][i]['images']['low_resolution']['url'] %>
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb___1016603785162749989_70192822299700'
+
+
+I, [2015-02-10T21:21:06.633592 #1413]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 21:21:06 -0800
+I, [2015-02-10T21:21:06.641809 #1413]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T21:21:10.011470 #1413]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (79.9ms)
+I, [2015-02-10T21:21:10.013617 #1413]  INFO -- : Completed 200 OK in 3372ms (Views: 85.7ms | ActiveRecord: 0.0ms)
+I, [2015-02-10T21:21:39.203084 #1432]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 21:21:39 -0800
+I, [2015-02-10T21:21:39.211475 #1432]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T21:21:40.569119 #1432]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (6.5ms)
+I, [2015-02-10T21:21:40.569396 #1432]  INFO -- : Completed 500 Internal Server Error in 1358ms
+F, [2015-02-10T21:21:40.571283 #1432] FATAL -- : 
+ActionView::Template::Error (undefined method `each_with_index' for #<String:0x007f8f5d1f9228>):
+    3: 
+    4: <%= @response %>
+    5: 
+    6: 	<% @response.each_with_index do |x, i| %>
+    7: 
+    8: 	<%= x %>
+    9: 	<% @img=@response['data'][i]['images']['low_resolution']['url'] %>
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb___3206663094546795710_70126859715900'
+
+
+I, [2015-02-10T21:47:03.722117 #1514]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 21:47:03 -0800
+I, [2015-02-10T21:47:03.778317 #1514]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T21:47:09.484782 #1514]  INFO -- : Completed 500 Internal Server Error in 5706ms
+F, [2015-02-10T21:47:09.490058 #1514] FATAL -- : 
+NoMethodError (undefined method `json' for #<HTTParty::Response:0x007f973ae608d8>):
+  app/controllers/welcome_controller.rb:19:in `index'
+
+
+I, [2015-02-10T21:50:01.700784 #1514]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 21:50:01 -0800
+I, [2015-02-10T21:50:01.702190 #1514]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T21:50:03.982264 #1514]  INFO -- : Completed 500 Internal Server Error in 2280ms
+F, [2015-02-10T21:50:03.987982 #1514] FATAL -- : 
+NoMethodError (undefined method `json' for #<HTTParty::Response:0x007f973da6a690>):
+  app/controllers/welcome_controller.rb:19:in `index'
+
+
+I, [2015-02-10T21:50:36.882800 #1545]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 21:50:36 -0800
+I, [2015-02-10T21:50:36.924536 #1545]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T21:50:43.809915 #1545]  INFO -- : Completed 500 Internal Server Error in 6885ms
+F, [2015-02-10T21:50:43.817807 #1545] FATAL -- : 
+NoMethodError (undefined method `json_builder' for #<HTTParty::Response:0x007f8aad4120c8>):
+  app/controllers/welcome_controller.rb:19:in `index'
+
+
+I, [2015-02-10T23:16:01.365834 #1640]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-10 23:16:01 -0800
+I, [2015-02-10T23:16:01.407207 #1640]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-10T23:16:03.522598 #1640]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (3.1ms)
+I, [2015-02-10T23:16:03.522873 #1640]  INFO -- : Completed 500 Internal Server Error in 2115ms
+F, [2015-02-10T23:16:03.525068 #1640] FATAL -- : 
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+     6: 	<% @response["data"].each_with_index do |x, i| %>
+     7: 	
+     8: 	<%= x.to_json %>
+     9: 	<% @img=x[i]['images']['low_resolution']['url'].to_json %>
+    10: 	<% @rlat=x[i]['location']['latitude'].to_json %>
+    11: 	<% @rlong=x[i]['location']['longitude'].to_json %>
+    12: 
+  app/views/welcome/index.html.erb:9:in `block in _app_views_welcome_index_html_erb__2299650601371933057_70217783801600'
+  app/views/welcome/index.html.erb:6:in `each'
+  app/views/welcome/index.html.erb:6:in `each_with_index'
+  app/views/welcome/index.html.erb:6:in `_app_views_welcome_index_html_erb__2299650601371933057_70217783801600'
+
+
+I, [2015-02-11T02:01:28.450755 #2178]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-11 02:01:28 -0800
+I, [2015-02-11T02:01:28.548719 #2178]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-11T02:01:29.110708 #2178]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (12.5ms)
+I, [2015-02-11T02:01:29.112830 #2178]  INFO -- : Completed 200 OK in 564ms (Views: 44.1ms | ActiveRecord: 0.0ms)
+I, [2015-02-11T02:01:36.510985 #2178]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-02-11 02:01:36 -0800
+I, [2015-02-11T02:01:36.658021 #2178]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-02-11T02:01:37.662024 #2178]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (13.9ms)
+I, [2015-02-11T02:01:37.663285 #2178]  INFO -- : Completed 200 OK in 1005ms (Views: 15.7ms | ActiveRecord: 0.0ms)

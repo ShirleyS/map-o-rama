@@ -1,0 +1,1 @@
+function showCurrentLocation(){navigator.geolocation?navigator.geolocation.getCurrentPosition(showCurrentLocation):alert("Geolocation API not supported.")}

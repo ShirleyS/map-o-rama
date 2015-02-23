@@ -1,2 +1,2 @@
 # map-o-rama
-Google Maps API says hello to Instagram API
+using instagram api and google maps api to show most recent posts for a city
