@@ -5,6 +5,7 @@ function initialize(map_lat_long_img) {
 
 	var map = new google.maps.Map(document.getElementById('mapPlaceholder'),
 		mapOptions);
+
 	getLocation(map, addToMap);
 };
 
@@ -62,12 +63,9 @@ function addToMap(map,pos){
     url: "https://api.instagram.com/v1/media/search?lat="+lat+"&lng="+lng+"&distance=700&client_id=3362b329e39749228f959b78cc3e0d40",
     dataType: 'jsonp',
     success: function(dataWeGotViaJsonp){
-    	console.log(dataWeGotViaJsonp)
         var text = '';
         var len = dataWeGotViaJsonp.data.length;
-        console.log(dataWeGotViaJsonp.data.length)
         for(var i=0;i<len;i++){
-        	console.log(dataWeGotViaJsonp.data[i])
       		var longitude = (dataWeGotViaJsonp.data[i].location.longitude);
 					var latitude = (dataWeGotViaJsonp.data[i].location.latitude);
 					var image = dataWeGotViaJsonp.data[i].images.low_resolution.url;
