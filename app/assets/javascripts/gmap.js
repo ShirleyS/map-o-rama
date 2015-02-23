@@ -30,14 +30,16 @@ function getLocation(map,callback){
   	navigator.geolocation.getCurrentPosition(function(position) {
   		var pos = new google.maps.LatLng(position.coords.latitude,
   			position.coords.longitude);
-  		var infowindow = new google.maps.Marker({
+  		var content = "<div>you</div>";
+  		var marker = new google.maps.Marker({
   			map: map,
   			position: pos
 	  	});
 	  	// position();
   		map.setCenter(pos);
   	  callback(map,pos);
-	  }, 
+		  addInfoWindow(map,marker,content);	
+	  },
 
   	function() {
   		handleNoGeolocation(true);
@@ -83,7 +85,7 @@ function addToMap(map,pos){
   											'</h3>'+'</div>'+
   											'<img src ='+ dataWeGotViaJsonp.data[i].images.low_resolution.url + '>'+
   											'<div>'+
-  											'<h2>'+dataWeGotViaJsonp.data[i].caption.from.username + '</h2>'+ '</div>'+
+  											'<h4>'+dataWeGotViaJsonp.data[i].caption.from.username + '</h4>'+ '</div>'+
   											'</div>';  
 		
 				addInfoWindow(map,marker[i],content);	
@@ -92,7 +94,7 @@ function addToMap(map,pos){
 	});
 }
 
-function addInfoWindow(map,marker, content) {
+function addInfoWindow(map,marker,content) {
     var infoWindow = new google.maps.InfoWindow({
         content: content
     });
