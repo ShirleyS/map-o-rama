@@ -52,12 +52,10 @@ function getLocation(map,callback){
   };
 };
 
-  var infos=[];
 function addToMap(map,pos){
 	marker = new Object;
 	var lat = pos.k
 	var lng = pos.D
-
 	$.ajax({
     url: "https://api.instagram.com/v1/media/search?lat="+lat+"&lng="+lng+"&distance=700&client_id=3362b329e39749228f959b78cc3e0d40",
     dataType: 'jsonp',
@@ -80,13 +78,13 @@ function addToMap(map,pos){
 						scaledSize: new google.maps.Size(64, 64)
 					}
 		    })
-		    var content = '<div id="popup_content">'+ 
-  											'<div>'+'<h3>'+ dataWeGotViaJsonp.data[i].caption.text +
+		    var content = '<div id="popup_content">'+
+  											'<div>'+'<h3>'+dataWeGotViaJsonp.data[i].caption.text +
   											'</h3>'+'</div>'+
-  											'<img src ='+ dataWeGotViaJsonp.data[i].images.low_resolution.url + '>' +
+  											'<img src ='+ dataWeGotViaJsonp.data[i].images.low_resolution.url + '>'+
   											'<div>'+
-  											'<h2>'+ dataWeGotViaJsonp.data[i].caption.from.username + '</h2>'+ '</div>'+
-  										'</div>';  
+  											'<h2>'+dataWeGotViaJsonp.data[i].caption.from.username + '</h2>'+ '</div>'+
+  											'</div>';  
 		
 				addInfoWindow(map,marker[i],content);	
     	}
@@ -94,8 +92,7 @@ function addToMap(map,pos){
 	});
 }
 
-
-function addInfoWindow(map,marker,content) {
+function addInfoWindow(map,marker, content) {
     var infoWindow = new google.maps.InfoWindow({
         content: content
     });
